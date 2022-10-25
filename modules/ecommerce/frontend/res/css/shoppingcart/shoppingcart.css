@@ -1,0 +1,356 @@
+
+#shoppingcart {
+    
+}
+
+#shoppingcart-center {
+    position: relative; 
+    width: 960px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+}
+
+/**********************************************
+ * HEADER
+ **********************************************/
+#shoppingcart-content-header {
+    padding: 20px 20px 0px 20px;
+       
+}
+
+#shoppingcart-content-header-table {
+    width: 100%; 
+}
+
+/**********************************************
+ * ARTICLES TABLE
+ **********************************************/
+
+#shoppingcart-content-articles {
+    padding: 20px 20px 0px 20px;
+}
+
+#shoppingcart-content-articles-table {
+    width: 100%; 
+    /*border: #000000 dashed thin;*/
+}
+
+.shoppingcart-content-articles-table-column {
+    position: relative; 
+    padding: 5px; 
+}
+
+/**********************************************
+ * ARTICLE COLUMN
+ **********************************************/
+
+.shoppingcart-content-articles-table-column-article {
+    width: 50.00%; 
+}
+
+.shoppingcart-content-articles-table-column-article-header {
+    /*text-align: center;*/
+}
+
+.shoppingcart-content-articles-table-column-article-content {
+    height: 106px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.shoppingcart-content-articles-table-column-article-content-img {
+    position: relative;  
+    width: 80px; 
+    height: 80px;
+    margin-top: 3px;
+}
+
+.shoppingcart-content-articles-table-column-article-content-container-text {
+    position: relative; 
+    width: 100%; 
+    height: 100%;
+    overflow: hidden;
+    padding-left: 10px;
+    /*border: green solid thin;*/  
+}
+
+.shoppingcart-content-articles-table-column-article-content-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.shoppingcart-content-articles-table-column-article-content-display {
+    font-size: 12px;
+}
+
+.shoppingcart-content-articles-table-column-article-content-brand {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.shoppingcart-content-articles-table-column-article-content-ref {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/**********************************************
+ * AMOUNT COLUMN
+ **********************************************/
+
+.shoppingcart-content-articles-table-column-amount {
+    width: 25.00%;
+}
+
+.shoppingcart-content-articles-table-column-amount-header {
+    text-align: center;
+}
+
+.shoppingcart-content-articles-table-column-amount-content {
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+.shoppingcart-content-articles-table-column-amount-stock {
+    height: 14px;
+    font-size: 10px;
+    margin-left: -58px;
+}
+
+.shoppingcart-content-articles-table-column-amount-stock-value {
+    color: red;
+    font-weight: bold;
+}
+
+.shoppingcart-content-articles-table-column-amount-content-div {
+    display: inline-block;
+}
+
+.shoppingcart-content-articles-table-column-amount-content-spinner-div {
+    float: left;
+}
+
+.shoppingcart-content-articles-table-column-amount-content-spinner {
+    text-align: center;
+    width: 30px;
+    
+}
+
+.shoppingcart-content-articles-table-column-amount-content-x {
+    float: left;
+    margin: 5px 5px 0px 5px;
+}
+
+.shoppingcart-content-articles-table-column-amount-content-price {
+    float: left;
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+/**********************************************
+ * PRICE COLUMN
+ **********************************************/
+
+.shoppingcart-content-articles-table-column-price {
+    width: 25.00%;  
+}
+
+.shoppingcart-content-articles-table-column-price-header {
+    text-align: center;
+}
+
+.shoppingcart-content-articles-table-column-price-content {
+    text-align: center;
+    font-size: 20px;
+}
+
+.shoppingcart-content-articles-table-column-price-content-trash {
+    position: absolute; 
+    top: 43px; 
+    left: 200px; 
+    cursor: pointer;
+    padding-left: 1px;      
+}
+
+/**********************************************
+ * TOTALS TABLE
+ **********************************************/
+
+#shoppingcart-content-totals {
+    padding: 0px 20px;
+}
+
+.shoppingcart-content-totals-table {
+    padding: 20px 0px;
+    width: 100%; 
+}
+
+.shoppingcart-content-totals-table-column {
+    padding: 5px;
+    /*border: red solid thin;*/
+}
+
+.shoppingcart-content-totals-table-column-shippingcost {
+    padding: 5px 5px 0px 5px;
+    /*border: red solid thin;*/
+}
+
+.shoppingcart-content-totals-label {
+    width: 80.00%; 
+    text-align: right;
+    color: grey;
+    font-weight: normal;
+    font-size: 14px; 
+    padding-top: 5px;
+}
+
+.shoppingcart-content-totals-table-column-info {
+    width: 80.00%; 
+    text-align: right;
+    padding: 0px 10px 8px 5px;
+    font-weight: normal;
+    font-size: 12px;
+    color: black;
+    font-style: italic;
+}
+
+.shoppingcart-content-totals-value {
+    width: 15.00%;  
+    text-align: center; 
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.shoppingcart-content-totals-shippingcost {
+    font-weight: normal; 
+}
+
+.shoppingcart-content-totals-trash {
+    width: 5.00%;  
+    text-align: center;
+    cursor: pointer;
+    /*padding-top: 4px;*/
+}
+
+/**********************************************
+ * EMPTY CART
+ **********************************************/
+
+#shoppingcart-content-empty {
+    position: relative; 
+    width: 960px;
+    height: 100px;
+    margin: 20px auto 0px auto;
+    overflow: hidden;
+}
+
+#shoppingcart-content-empty-img {
+    position: absolute;  
+    width: 90px; 
+    height: 100px;
+    top: 0px; 
+    left: 300px; 
+}
+
+#shoppingcart-content-empty-text {
+    position: absolute; 
+    width: 400px; 
+    height: 30px;
+    top: 38px; 
+    left: 400px;
+    overflow: hidden;
+    
+    font-weight: normal; 
+    font-style: italic;
+    font-size: 16px;
+    text-align: left;
+}
+
+/**********************************************
+ * VOUCHER
+ **********************************************/
+
+#shoppingcart-content-voucher-zone {
+    position: relative;
+    padding: 0px 20px;
+    /*border: green solid thin;*/
+}
+
+#shoppingcart-content-voucher-table {
+    padding: 15px 0px;
+    width: 100%; 
+}
+
+.shoppingcart-content-voucher-table-column {
+    position: relative; 
+}
+
+#shoppingcart-content-voucher-wrapper {
+    position: relative; 
+    float: right;
+    width: 230px;
+    text-align: center;
+    /*border: red solid thin;*/
+}
+
+#shoppingcart-content-voucher {
+    cursor: pointer;
+}
+
+#shoppingcart-content-voucher-tooltip {
+    position: relative;  
+    /*width: 100%;*/
+    font-weight: normal; 
+    font-size: 12px;
+    text-align: right;
+    margin-right: 55px;
+}
+    
+#shoppingcart-content-voucher-tooltip-input {
+    text-align: right;
+    padding-right: 10px;
+}
+    
+#shoppingcart-content-voucher-tooltip-error-msg {
+    width: 100%;
+    /*text-align: center;*/
+    color: red;
+    font-size: 13px;
+    font-style: italic;
+    text-align: right;
+}
+
+#shoppingcart-content-voucher-tooltip-button {  
+    width: 100px; 
+    height: 32px;
+    text-align: center;
+    margin: -5px 0 5px 0;
+}
+
+#shoppingcart-content-voucher-message-wrapper {
+    position: relative; 
+    width: 400px;  
+    padding: 10px;
+    font-weight: normal;
+    text-align: justify;
+    /*border:  #0000CC solid thin;*/ 
+}
+
+#shoppingcart-content-voucher-message-title {
+    position: relative; 
+    width: 100%;    
+    font-size: 20px; 
+    color: green;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#shoppingcart-content-voucher-message-msg {
+    position: relative; 
+    width: 100%;    
+    font-size: 14px; 
+    color: black;
+    margin-bottom: 10px;
+    
+}

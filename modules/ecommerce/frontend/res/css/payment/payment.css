@@ -1,0 +1,141 @@
+
+#payment {
+    background: transparent;
+}
+
+#payment-center {
+    position: relative; 
+    width: 960px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+}
+
+#payment-content {
+    position: relative; 
+    width: 700px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+}
+
+.payment-title {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.payment-paymentways-wrapper {
+    margin-top: 20px;
+}
+
+.payment-paymentway {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    margin-top: 10px; 
+}
+
+.payment-paymentway-radio {
+    height: 100%;
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.payment-paymentway-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    cursor: pointer;
+}
+
+.payment-paymentway-table {
+    width: 100%;
+    height: 100%;
+}
+
+.payment-paymentway-column-radio {
+    width: 10%;
+    /*border: blue solid thin;*/
+}
+
+.payment-paymentway-column-content {
+    padding-right: 20px;
+    /*border: green solid thin;*/
+}
+
+#payment-paymentways-accept-policies {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+#payment-submit-buttons {
+    margin-top: 10px;
+}
+
+/**********************************************
+ * CREDIT CARD
+ **********************************************/
+.payment-paymentway-card-table {
+    margin-top: 5px;
+}
+
+.payment-paymentway-card-column {
+    padding: 5px 0px;
+}
+
+.payment-paymentway-card-column-img {
+    width: 180px;
+    height: 25px;
+    margin-top: 2px;
+}
+
+.payment-paymentway-card-column-additionalinfo {
+    padding-left: 10px;
+}
+
+/**********************************************
+ * CLICK TO PAY
+ **********************************************/
+#payment-paymentway-clicktopay-moreinfo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: default;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#payment-paymentway-clicktopay-tooltip {
+    position: relative;  
+    max-width: 400px;
+    width: 100%;
+    font-weight: normal; 
+    font-size: 12px;    
+}
+
+/**********************************************
+ * IUPAY
+ **********************************************/
+#payment-paymentway-iupay-img {
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+/**********************************************
+ * PAYPAL
+ **********************************************/
+#payment-submit-paypal-button {
+    display: block;
+    margin: 0px auto 0px auto;    
+}
+
+#payment-paymentway-paypal-img {
+    width: 120px;
+    height: 25px;
+    margin-top: 10px;
+}

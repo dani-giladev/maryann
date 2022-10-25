@@ -1,0 +1,82 @@
+
+/**********************************************
+ * FORM
+ **********************************************/
+
+#article-detail-reviews-form-title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#article-detail-reviews-form-star-rating-error-text {
+    margin-top: 7px;
+    margin-left: 10px;
+    color: red;
+}
+
+#article-detail-reviews-form-star-rating-end {
+    margin-bottom: 15px;
+}
+
+/**********************************************
+ * MESSAGE AFTER SUBMIT (FORM))
+ **********************************************/
+
+#article-detail-reviews-form-message-after-submit {
+    position: relative; 
+    /*width: 400px;*/  
+    padding: 10px;
+    font-weight: normal;
+    /*border:  #0000CC solid thin;*/ 
+}
+
+#article-detail-reviews-form-message-after-submit-title {
+    position: relative; 
+    width: 100%;    
+    font-size: 20px; 
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#article-detail-reviews-form-message-after-submit-success {
+    position: relative; 
+    width: 100%;    
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/**********************************************
+ * REVIEWS
+ **********************************************/
+
+.article-detail-reviews-review {
+    font-size: 12px; 
+}
+
+.article-detail-reviews-review-title {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 14px; 
+}
+
+.article-detail-reviews-review-star-rating {
+    margin: 6px 0px 0px -7px;
+}
+
+.article-detail-reviews-review-text {
+    margin: 6px 0px;;
+}
+
+.article-detail-reviews-review-name {
+    font-weight: bold;
+}
+
+.article-detail-reviews-review-date {
+    font-style: italic;
+    color: gray;
+}
+
+.article-detail-reviews-review-delimiter {
+    margin-bottom: 20px;
+}

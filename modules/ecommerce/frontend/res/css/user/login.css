@@ -1,0 +1,81 @@
+
+.login-tooltip-theme
+/*.tooltipster-box*/ 
+{
+    /*border-radius: 5px;*/ 
+    border: 2px solid #c0a00a;
+    background: white;
+}
+/* Use this next selector to style things like font-size and line-height: */
+.login-tooltip-theme .tooltipster-content {
+    line-height: 16px;
+    padding: 10px;
+    color: black;
+}
+
+/*4.1.6*/
+/*.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-background {
+	border-bottom-color: white;
+}
+.tooltipster-sidetip.tooltipster-left .tooltipster-arrow-background {
+	border-left-color: white;
+}
+.tooltipster-sidetip.tooltipster-right .tooltipster-arrow-background {
+	border-right-color: white;
+}
+.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-background {
+	border-top-color: white;
+}
+.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-border {
+	border-bottom-color: #c0a00a;
+}
+.tooltipster-sidetip.tooltipster-left .tooltipster-arrow-border {
+	border-left-color: #c0a00a;
+}
+.tooltipster-sidetip.tooltipster-right .tooltipster-arrow-border {
+	border-right-color: #c0a00a;
+}
+.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-border {
+	border-top-color: #c0a00a;
+}*/
+
+#login-tooltip {
+    position: relative;  
+    width: 100%;
+    font-weight: normal; 
+    font-size: 12px;    
+}
+
+.login-tooltip-title { 
+    font-size: 14px;  
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.login-tooltip-info {
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.login-tooltip-fields-field {
+    margin-bottom: 10px;
+}
+
+#login-tooltip-error-msg {
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.login-tooltip-button {  
+    width: 150px; 
+    height: 32px;
+    display: block;
+    margin: 5px auto 10px auto;
+}
+
+.login-tooltip-forget-password {
+    margin-left: 5px;
+}

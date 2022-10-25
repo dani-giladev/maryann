@@ -1,0 +1,27 @@
+
+#article-detail-related-articles-wrapper {
+    background: transparent;
+}
+
+#article-detail-related-articles-wrapper-center {
+    position: relative; 
+    height: auto;
+    overflow: hidden;
+}
+
+#article-detail-related-articles-title {
+    margin: 20px 50px 0px 50px;
+}
+
+#article-detail-related-articles-content {
+    margin: 15px auto 0px auto;
+}
+
+/*Overriding*/
+.showcase-content-articles-table {
+    margin: 0px;
+    padding-bottom: 0px;
+}
+.showcase-content-article-column {
+    padding-bottom: 0px;
+}

@@ -1,0 +1,67 @@
+
+/**********************************************
+ * DESCRIPTION
+ **********************************************/
+
+#showcase-content-description-wrapper {
+    background: white; 
+    border: silver solid thin;
+    /*border: 5px solid #6d5a00;*/
+    /*border-bottom: 10px solid black;*/
+}
+
+#showcase-content-description-delimiter {
+    border-bottom: #000000 dotted thin;
+}
+
+/**********************************************
+ * SEARCH RESULT
+ **********************************************/
+
+#showcase-content-searchresult-wrapper {
+    background: white; 
+    border: silver solid thin;
+}
+
+#showcase-content-searchresult-wrapper a {
+    text-decoration: underline;
+    color: grey;
+}
+
+#showcase-content-searchresult-wrapper a:hover {
+    font-weight: bold;
+}
+
+.showcase-content-searchresult-title {
+    /*border-bottom: #000000 dotted thin;*/
+    font-weight: bold;
+}
+
+#showcase-content-searchresult-contact-phone-img {
+    background-image: url("../../../../res/img/phone-black.png");
+}
+
+#showcase-content-searchresult-contact-email-img {
+    background-image: url("../../../../res/img/mail-black.png");
+}
+    
+#showcase-content-searchresult-form-error-msg {
+    width: 100%;
+    color: red;
+    font-size: 13px;
+    font-style: italic;
+    text-align: left;
+    margin-top: 8px;
+}
+    
+#showcase-content-searchresult-form-answer {
+    font-size: 14px;
+}
+
+/**********************************************
+ * FOOTER
+ **********************************************/
+
+#showcase-content-footer {
+    border-top: 1px solid black;
+}

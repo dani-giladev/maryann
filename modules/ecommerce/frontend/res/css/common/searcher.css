@@ -1,0 +1,141 @@
+
+/**********************************************
+ * SEARCHER INPUT
+ **********************************************/
+
+#searcher {
+    position: absolute;  
+    width: 220px;
+    height: 25px;
+    left: 330px;
+    float: none;
+    padding-bottom: 10px;
+}
+
+#searcher-input {
+    position: relative;  
+    width: 100%;
+    height: 100%;
+    
+    text-align: left;
+    outline: none;   
+    
+    padding: 0;
+    text-indent: 5px;
+    border: 0;  
+}
+
+#searcher-img {
+    position: absolute;  
+    width: 15px;
+    height: 15px;
+    top: 12px; 
+    left: 210px;
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    cursor: default;    
+}
+
+/**********************************************
+ * SEARCHER RESULT
+ **********************************************/
+
+#searcher-result {
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-size: 12px;
+    padding: 5px 10px 0px 10px;   
+}
+
+.searcher-no-results {
+    padding: 10px;
+    font-weight: normal; 
+    font-style: italic;
+    font-size: 14px;
+}
+
+.searcher-result-table-content {
+    margin-top: 5px;
+}
+
+.searcher-result-table-column {
+    text-align: center;
+    vertical-align: top;
+    padding: 5px;
+    /*border: red solid thin;*/
+}
+.searcher-result-table-column-delimiter-padding {
+    padding-right: 10px;
+}
+.searcher-result-table-column-delimiter {
+    border-right: #c0c0c0 solid thin;
+}
+
+.searcher-result-highlighted {
+    color: red;
+    font-weight: bold;
+}
+
+/*ARTICLES*/
+.searcher-result-table-column-articles {
+    width: 300px;
+}
+.searcher-result-article {
+    border-bottom: #c0c0c0 solid thin;
+}
+.searcher-result-article-table {
+    vertical-align: central;
+}
+.searcher-result-article-img {
+    width: 58px; 
+    height: 58px;
+    
+/*    border: 1px solid #fff;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;    */
+}
+.searcher-result-article-text-wrapper {
+    height: 90px; 
+    text-align: left;
+    padding-left: 5px;   
+    
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    margin: 0 auto;    
+}
+.searcher-result-article-title {
+    font-size: 12px;
+    font-weight: bold;     
+}
+.searcher-result-article-description {
+    font-size: 10px;
+    color: #c0c0c0;
+    text-align: justify;
+}
+
+/*BRANDS*/
+.searcher-result-table-column-brands {
+    width: 250px;
+}
+.searcher-result-brand {
+    padding: 10px;
+    /*border-bottom: #c0c0c0 solid thin;*/
+    font-size: 16px;
+}
+
+/*CATEGORIES*/
+.searcher-result-table-column-categories {
+    width: 400px;
+}
+.searcher-result-category {
+    padding: 10px;
+    border-bottom: #c0c0c0 solid thin;
+    text-align: left;
+    font-size: 12px;
+}
+.searcher-result-category-breadcrumb {
+    color: #4b515f;
+}

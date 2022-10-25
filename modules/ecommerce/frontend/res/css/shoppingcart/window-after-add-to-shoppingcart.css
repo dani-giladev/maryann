@@ -1,0 +1,125 @@
+
+/*Overwritten*/
+.fancybox-skin {
+    background: #FFFFFF;
+}
+
+#window-after-add-to-shoppingcart {
+    position: relative; 
+    width: 400px;  
+    padding: 10px;
+    /*border:  #0000CC solid thin;*/ 
+}
+
+#window-after-add-to-shoppingcart-title {
+    position: relative; 
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: #000000 dotted thin;
+}
+
+#window-after-add-to-shoppingcart-article {
+    position: relative;  
+    width: 100%;
+    height: 160px;
+    margin-top: 10px;
+    /*border: #073a5c solid thin;*/    
+}
+
+#window-after-add-to-shoppingcart-article-img {
+    position: absolute;  
+    width: 160px; 
+    height: 100%;
+    top: 0px; 
+    left: 0px;    
+    /*border: green solid thin;*/ 
+    
+/*    border: 10px solid #fff;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+       -moz-box-shadow: 0 0 2px #999;
+            box-shadow: 0 0 2px #999;    */
+}
+
+#window-after-add-to-shoppingcart-article-price-container {
+    position: absolute;  
+    width: 220px; 
+    top: 0px; 
+    left: 170px;   
+    text-align: right;
+    /*border: green solid thin;*/    
+}
+
+#window-after-add-to-shoppingcart-article-price-amount {
+    font-size: 18px;
+    float: right;
+    margin: 5px 10px 0px 0px;
+}
+
+#window-after-add-to-shoppingcart-article-price {
+    font-size: 25px;
+    font-weight: bold;
+    float: right;
+}
+
+#window-after-add-to-shoppingcart-article-text-container {
+    position: absolute; 
+    width: 230px; 
+    height: 130px;
+    top: 30px; 
+    left: 170px;
+    overflow: hidden;
+    /*border: green solid thin;*/    
+}
+
+#window-after-add-to-shoppingcart-article-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#window-after-add-to-shoppingcart-article-display {
+    font-size: 12px;
+}
+
+#window-after-add-to-shoppingcart-article-brand {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#window-after-add-to-shoppingcart-article-ref {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/**********************************************
+ * ACTION BUTTONS
+ **********************************************/
+
+#window-after-add-to-shoppingcart-action-buttons {
+    position: relative; 
+    width: 100%;
+    height: 32px;
+    margin-top: 28px;
+    overflow: hidden;
+    /*border: #073a5c solid thin;*/ 
+}
+
+.window-after-add-to-shoppingcart-action-buttons-continueshopping-button {
+    position: absolute; 
+    width: 180px; 
+    height: 32px;
+    top: 0px; 
+    left: 220px;
+}
+
+.window-after-add-to-shoppingcart-action-buttons-ordering-button {
+    position: absolute; 
+    width: 180px; 
+    height: 32px;    
+    top: 0px;    
+    left: 0px;
+}

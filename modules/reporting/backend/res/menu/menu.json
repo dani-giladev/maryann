@@ -1,0 +1,52 @@
+[   
+    {
+        "alias": "internal_analytical",
+        "icon": "x-fa fa-area-chart",
+        "children": 
+        [     
+            { 
+                "alias": "articles",
+                "icon": "x-fa fa-diamond"
+            },
+            { 
+                "alias": "brandsAndGammas",
+                "icon": "x-fa fa-html5"
+            }   
+        ] 
+    },      
+    {
+        "alias": "farmatic",
+        "icon": "x-fa fa-jsfiddle",
+        "children": 
+        [     
+            { 
+                "alias": "farmaticArticles",
+                "_model": "farmaticArticle",
+                "icon": "x-fa fa-tags"
+            }  
+        ] 
+    },  
+    {
+        "alias": "seo",
+        "icon": "x-fa fa-road",
+        "children": 
+        [     
+            { 
+                "alias": "seoOnPage",
+                "icon": "x-fa fa-sign-out"
+            }
+        ] 
+    },
+    {
+        "alias": "botplus",
+        "icon": "x-fa fa-book",
+        "children": 
+        [     
+            { 
+                "alias": "botplusMedicines",
+                "_model": "botplusMedicine",
+                "icon": "x-fa fa-medkit"
+            }   
+        ] 
+    }    
+]

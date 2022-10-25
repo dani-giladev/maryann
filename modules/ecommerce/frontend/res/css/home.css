@@ -1,0 +1,125 @@
+
+#home-page {
+    background: transparent;
+}
+
+.home-page-center {
+    position: relative; 
+    height: auto;
+    overflow: hidden;
+}
+
+/**********************************************
+ * SLIDER
+ **********************************************/
+
+#home-slider-mask {
+    position: absolute; 
+    width: 100%;
+    background: black;
+    z-index: 9999;
+}
+
+#home-slider {
+    
+}
+
+#home-slider-bottom {
+    position: relative; 
+    clear: both;
+    width: 100%;
+}
+
+/**********************************************
+ * BANNERS
+ **********************************************/
+
+#home-banners {
+    position: relative; 
+    width: 100%;
+    margin-top: 40px;
+}
+
+.home-banners-center {
+    min-width: 0px;
+    padding: 0px 40px;
+    /*border: violet solid thin;*/
+}
+
+.home-banners-center img {
+    margin-bottom: -2px;
+}
+
+/**********************************************
+ * OUTSTANDING BRANDS
+ **********************************************/
+
+.home-outstanding-brands {
+    position: relative; 
+    width: 100%;
+    margin-top: 40px;
+}
+
+#home-outstanding-brands-title {
+    margin: 0 50px;
+}
+
+#home-outstanding-brands-content {
+    margin: 15px auto 0px auto;
+}
+
+.home-outstanding-brands-background {
+    background: white;
+    border-top: #6d5a00 solid thin;
+    border-bottom: #6d5a00 solid thin;
+}
+
+/*Overriding*/
+.brands-content-brand-img {
+    border: 0; 
+}
+
+/**********************************************
+ * OUTSTANDING ARTICLES
+ **********************************************/
+
+#home-outstanding-articles {
+    position: relative; 
+    width: 100%;
+    margin-top: 40px;
+}
+
+#home-outstanding-articles-title {
+    margin: 0 50px;
+}
+
+#home-outstanding-articles-content {
+    margin: 15px auto 0px auto;
+}
+
+/**********************************************
+ * NOVELTY ARTICLES
+ **********************************************/
+
+#home-novelty-articles {
+    position: relative; 
+    width: 100%;
+    margin: 20px 0px;
+}
+
+#home-novelty-articles-title {
+    margin: 0 50px;
+}
+
+#home-novelty-articles-content {
+    margin: 15px auto 0px auto;
+}
+
+/*Overriding*/
+.showcase-content-articles-table {
+    margin: 0px;
+    padding-bottom: 0px;
+}
+.showcase-content-article-column {
+    padding-bottom: 0px;
+}

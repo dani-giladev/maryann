@@ -1,0 +1,39 @@
+
+.payment-paymentway {
+    border: gray solid thin;
+    
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;        
+    -o-border-radius: 0.2em;
+    -khtml-border-radius:  0.2em;  
+}
+
+.payment-paymentway:hover {
+    border: #6d5a00 solid thin;
+    background: white;
+}
+
+.payment-paymentway-selected {
+    border: #6d5a00 solid thin;
+    background: white;
+}
+
+#payment-paymentways-accept-policies a {
+    text-decoration: underline;
+    color: grey;
+}
+
+#payment-paymentways-accept-policies a:hover {
+    color: black;
+}
+
+#payment-paymentway-clicktopay-moreinfo {
+    text-decoration: underline;
+    color: grey;
+    font-weight: bold;
+}
+
+#payment-paymentway-clicktopay-moreinfo:hover {
+    color: black;
+}

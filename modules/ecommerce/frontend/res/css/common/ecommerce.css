@@ -1,0 +1,165 @@
+
+@font-face {
+    font-family: cfasty;
+    src: url(../../../../../../../res/fonts/CFAstyStd/CFAstyStd-Book.otf) format("opentype"), 
+         url(../../../../../../../res/fonts/CFAstyStd//CFAstyStd-Book.eot) format('embedded-opentype'), 
+         url(../../../../../../../res/fonts/CFAstyStd//CFAstyStd-Book.woff) format('woff'), 
+         url(../../../../../../../res/fonts/CFAstyStd//CFAstyStd-Book.ttf) format('truetype'), 
+         url(../../../../../../../res/fonts/CFAstyStd//CFAstyStd-Book.svg#Sri-TSCRegular) format('svg')
+}
+
+@font-face {
+    font-family: cfasty;
+    font-weight: bold;
+    src: url(../../../../../../../res/fonts/CFAstyStd//CFAstyStd-Bold.otf) format("opentype"), 
+         url(../../../../../../../res/fonts/CFAstyStd//CFAstyStd-Bold.eot) format('embedded-opentype'), 
+         url(../../../../../../../res/fonts/CFAstyStd//CFAstyStd-Bold.woff) format('woff'), 
+         url(../../../../../../../res/fonts/CFAstyStd//CFAstyStd-Bold.ttf) format('truetype'), 
+         url(../../../../../../../res/fonts/CFAstyStd//CFAstyStd-Bold.svg#Sri-TSCRegular) format('svg')
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-size: 12px;
+    font-family: cfasty, Helvetica, Verdana, "Trebuchet MS", Arial, sans-serif;
+}
+
+@media only screen and (min-width: 1100px) {
+    
+    .menu-main-firstlevel-text {
+        font-size: 15px;
+        padding-top: 13px;
+    }
+    .header-specialmenu {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width : 1000px) and (max-width : 1100px) {
+    
+    .menu-main-firstlevel-text {
+        font-size: 14px;
+        padding-top: 13px;
+    }
+    .header-specialmenu {
+        font-size: 13px;
+    }    
+}
+@media only screen and (max-width: 1000px) {
+    
+    .menu-main-firstlevel-text {
+        font-size: 13px;
+        padding-top: 14px;
+    }
+    .header-specialmenu {
+        font-size: 12px;
+    }    
+}
+
+input, 
+button, 
+.font-family 
+{
+    font-family: cfasty, Helvetica, Verdana, "Trebuchet MS", Arial, sans-serif;
+}
+
+.button {
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    line-height: 0;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0;
+    
+    filter: none; /*IE9*/ 
+    border: none;    
+}
+
+.title {
+    font-size: 12px;
+    font-weight: bold;
+    /*font-style: italic;*/
+    padding: 2px 0px;
+}
+
+.label {
+    /*font-size: 14px;*/
+    margin-bottom: 2px;
+}
+
+.field {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;        
+    -o-border-radius: 4px;
+    -khtml-border-radius:  4px;      
+    
+    outline: none;
+    padding: 6px 0px 4px 10px;
+    
+    border-width: 2px;
+    border-style: solid;    
+    
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.field-cardexpirationdate-month {
+    width: 55px;
+}
+
+.field-cardexpirationdate-year {
+    width: 65px;
+}
+
+.field-cardverificationcode {
+    width: 80px;
+}
+
+.field-country {
+    width: 100px;
+}
+
+.field-cardtype, .field-voucher {
+    width: 150px;
+}
+
+.field-voucher {
+    text-transform: uppercase;
+}
+
+.field-phone, .field-postalcode, .field-cardnumber {
+    width: 200px;
+}
+
+textarea {
+    resize: none;
+    height: 50px;
+}
+
+input.error, textarea.error {
+    border: 1px solid red;
+}
+
+label.error {
+    margin-top: 7px;
+    margin-left: 10px;
+    color: red;
+}
+
+.addtocart-amount-spinner-dialog-warning-article-title {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.addtocart-amount-spinner-dialog-warning-text {
+    margin-top: 10px;
+}
+
+.basic-dialog-content {
+    text-align: justify;
+}

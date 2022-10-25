@@ -1,0 +1,78 @@
+
+#signin-parent {
+    background: transparent;
+}
+
+#signin-parent-center {
+    position: relative; 
+    width: 960px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+}
+
+#signin {
+    position: relative; 
+    width: 650px;
+    height: auto;
+    margin: 20px auto 40px auto;
+    padding: 0px;
+    /*border: silver solid thin;*/
+}
+
+.signin-title {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.signin-fields-wrapper {
+    position: relative; 
+    width: 600px;
+    margin: 20px;
+    /*border: red dotted thin;*/
+}
+
+#signin-field-newsletters {
+    margin-top: 30px;
+}
+
+#signin-action-button-wapper {
+    position: relative; 
+    margin: 10px 0px 0px 20px;
+}
+
+.signin-action-button {
+    position: relative; 
+    width: 200px; 
+    height: 32px;
+}
+
+#signin-fields-legal-info {
+    color: black;
+    margin: 10px 0px 0px 20px;
+}
+
+#signin-fields-legal-info a {
+    text-decoration: underline;
+    color: grey;
+}
+
+#signin-fields-legal-info a:hover {
+    color: black;
+}
+
+#signin-field-captcha {
+    text-transform: uppercase;
+}
+
+#signin-captcha-img {
+
+}
+
+#signin-captcha-refresh {
+    width: 30px;
+    height: 30px;    
+    margin: 11px 0px 0px 5px;
+    vertical-align: top;
+    cursor: pointer;
+}

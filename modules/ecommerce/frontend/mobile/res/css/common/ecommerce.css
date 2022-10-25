@@ -1,0 +1,391 @@
+
+@font-face {
+    font-family: cfasty;
+    src: url(../../../../../../../../res/fonts/CFAstyStd/CFAstyStd-Book.otf) format("opentype"), 
+         url(../../../../../../../../res/fonts/CFAstyStd//CFAstyStd-Book.eot) format('embedded-opentype'), 
+         url(../../../../../../../../res/fonts/CFAstyStd//CFAstyStd-Book.woff) format('woff'), 
+         url(../../../../../../../../res/fonts/CFAstyStd//CFAstyStd-Book.ttf) format('truetype'), 
+         url(../../../../../../../../res/fonts/CFAstyStd//CFAstyStd-Book.svg#Sri-TSCRegular) format('svg')
+}
+
+@font-face {
+    font-family: cfasty;
+    font-weight: bold;
+    src: url(../../../../../../../../res/fonts/CFAstyStd//CFAstyStd-Bold.otf) format("opentype"), 
+         url(../../../../../../../../res/fonts/CFAstyStd//CFAstyStd-Bold.eot) format('embedded-opentype'), 
+         url(../../../../../../../../res/fonts/CFAstyStd//CFAstyStd-Bold.woff) format('woff'), 
+         url(../../../../../../../../res/fonts/CFAstyStd//CFAstyStd-Bold.ttf) format('truetype'), 
+         url(../../../../../../../../res/fonts/CFAstyStd//CFAstyStd-Bold.svg#Sri-TSCRegular) format('svg')
+}
+
+body {
+    font-family: cfasty, Helvetica, Verdana, "Trebuchet MS", Arial, sans-serif;
+}
+
+input, 
+button, 
+.font-family 
+{
+    font-family: cfasty, Helvetica, Verdana, "Trebuchet MS", Arial, sans-serif;
+}
+
+.content {
+    padding: 0px;
+}
+
+.title {
+    font-size: 14px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    padding: 2px 0;
+}
+
+.article-title {
+    font-size: 16px;
+}
+
+.article-display {
+    font-style: italic;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.brand {
+    font-weight: bold;  
+    font-size: 18px;      
+}
+
+.gamma {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.label {
+    /*font-size: 14px;*/
+    margin-bottom: -4px;
+}
+
+.field {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;        
+    -o-border-radius: 4px;
+    -khtml-border-radius:  4px;      
+    
+    outline: none;
+    padding: 6px 0px 4px 10px;
+    
+    border-width: 2px;
+    border-style: solid;    
+    
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.field-cardexpirationdate-month {
+    width: 55px;
+}
+
+.field-cardexpirationdate-year {
+    width: 65px;
+}
+
+.field-cardverificationcode {
+    width: 80px;
+}
+
+.field-country {
+    width: 100px;
+}
+
+.field-cardtype, .field-voucher {
+    width: 150px;
+}
+
+.field-voucher {
+    text-transform: uppercase;
+}
+
+.field-phone, .field-postalcode, .field-cardnumber {
+    width: 200px;
+}
+
+textarea {
+    resize: none;
+    height: 50px;
+}
+
+input.error, textarea.error {
+    border: 1px solid red;
+}
+
+label.error {
+    font-size: 12px;
+    margin-top: 7px;
+    margin-left: 10px;
+    color: red;
+}
+
+.basic-dialog-content {
+    text-align: justify;
+}
+
+/**********************************************
+ * Header
+ **********************************************/
+
+.content-header {
+    padding: 5px;
+}
+
+#content-preheader {
+    width: 100%;
+}
+
+#content-preheader-logo {
+    margin: 0px;
+    padding: 0px;
+    float: left;    
+}
+
+#content-preheader-logo-ico {
+    float: left;
+}
+
+#content-preheader-websitename {
+    float: left; 
+}
+
+.content-preheader-menu {
+    float: right;
+}
+
+.content-header-searcher-wrapper {
+    width: 100%;
+    margin-top: 0px;
+}
+
+#content-header-searcher-menu {
+    width: 30px;
+    float: left;
+    margin: 1px 10px 0px -4px;
+}
+
+#content-header-searcher {
+    width: 100%;
+    margin-right: -70px;
+    padding-right: 70px;
+}
+
+#content-header-searcher-button {
+    width: 25px;
+    margin-left: -5px;
+}
+
+#content-header-searcher-button a {
+    height: 30px;
+}
+
+/**********************************************
+ * Searcher
+ **********************************************/
+
+#searcher-list {
+    padding: 0;
+    margin: 0;
+}
+
+.ui-listview .ui-li-static {
+    white-space: normal;
+}
+
+.searcher-no-results {
+    padding: 10px;
+    font-weight: normal; 
+    font-style: italic;
+    font-size: 14px;
+}
+
+.searcher-result-article a:link {
+  text-decoration: none !important;
+}
+
+.searcher-result-highlighted {
+    color: red;
+    font-weight: bold;
+}
+
+.searcher-result-article-title {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.searcher-result-article-description {
+    font-size: 10px;
+    color: #c0c0c0;
+    text-align: justify;
+    margin-top: 5px;
+}
+
+/**********************************************
+ * Shoppingcart menu option
+ **********************************************/
+
+#shoppingcart-menu-option-amount-wrapper {
+    float: right;
+}
+
+#content-preheader-menu-shoppingcart-img {
+    height: 25px;
+    width: 25px;
+    margin: 8px 5px 0px 0px;
+}
+
+#shoppingcart-menu-option-amount {
+    position: relative;  
+    width: 20px; 
+    height: 20px;
+    margin: 12px 8px 0px 0px;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -khtml-border-radius: 50%;
+}
+
+#shoppingcart-menu-option-amount-text {
+    position: relative; 
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+
+/**********************************************
+ * Footer
+ **********************************************/
+
+#footer-firstrow {
+    text-align: center;
+}
+
+#footer-firstrow-table-column-logo-img {
+    width: 250px; 
+    height: 40px;
+    padding: 20px 0px;
+}
+
+.footer-short-delimiter {
+    margin: 0 auto;
+    width: 50%; 
+}
+
+.footer-long-delimiter {
+    margin: 0 auto;
+    width: 90%; 
+}
+
+#footer-firstrow-table-column-attention-to-customer {
+    padding: 20px 5px;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+}
+
+#footer-firstrow-table-column-attention-to-customer table {
+    text-align: center;
+    width: 100%; 
+}                    
+
+#footer-firstrow-table-column-attention-to-customer-title {
+    font-weight: bold;
+}
+
+#footer-firstrow-table-column-attention-to-customer-phone-number {     
+    margin-top: 15px;  
+    font-size: 24px;
+    font-weight: bold;      
+}
+
+#footer-firstrow-table-column-attention-to-customer-phone-info {
+    margin-top: 2px;
+    font-size: 10px;
+}
+
+#footer-firstrow-table-column-attention-to-customer-email-text {
+    margin-top: 5px;
+    font-weight: bold;     
+}
+
+#footer-firstrow-table-column-info {
+    padding: 20px 5px;
+    margin: 0 auto;
+    padding-right: 50px;
+    font-size: 12px;
+}
+
+#footer-payment {
+    text-align: center;
+    padding: 20px 5px;
+}
+
+#footer-payment-content-paypal {
+    position: relative;
+    width: 140px;
+    height: 30px;
+    padding: 0px 5px 6px 5px;
+    /*border: 1px solid red;*/
+}
+
+#footer-payment-content-iupay {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    padding: 0px 5px -4px 5px;
+    /*border: 1px solid red;*/
+}
+
+#footer-payment-content-credit-cards {
+    position: relative;
+    width: 240px;
+    height: 30px;
+    padding: 0px 5px 4px 5px;
+    /*border: 1px solid red;*/
+}
+
+#footer-legal {
+    text-align: center;
+    padding: 20px 5px;
+    font-size: 10px;
+}
+
+.footer-legal-content-delimiter {
+    margin: 0px 10px;
+}
+
+/**********************************************
+ * Breadscrumbs
+ **********************************************/
+
+#menu-breadcrumbs {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.menu-breadcrumbs-brand-name {
+    font-weight: bold;
+}
+
+.menu-breadcrumbs-text {
+    font-weight: bold;
+}
+
+.menu-breadcrumbs-breadcrumb-only-text {
+    /*font-weight: bold;*/
+}
+
+.menu-breadcrumbs-delimiter {
+    font-weight: bold;
+}

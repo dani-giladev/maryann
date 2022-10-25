@@ -1,0 +1,31 @@
+ 
+#medicines-info, .medicines-info-center-border-top {
+    background: white;
+    border-top: 5px solid black;
+}
+
+#medicines-info-table {
+    width: 100%;
+    text-align: justify;
+    font-size: 12px;
+    padding: 20px 0px;
+}
+
+#medicines-info-column-text {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#medicines-info-logo {
+    width: 150px; 
+    height: 120px;
+}
+
+.medicines-info-link {
+    color: #4b515f;
+    text-decoration: underline !important;
+}
+
+.medicines-info-link2 {
+    color: #4b515f;
+}

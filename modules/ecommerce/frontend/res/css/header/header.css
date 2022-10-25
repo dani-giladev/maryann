@@ -1,0 +1,93 @@
+
+#header-center {
+    height: 70px;
+    /*overflow: hidden;*/
+}
+
+#header-logo-wrapper {
+    position: absolute;  
+    top: -12px;
+    left: 0px;
+    width: 300px; 
+    height: 70px; 
+    /*border: red dotted thin;*/
+}
+
+#header-logo-title {
+    position: absolute;
+    left: -10px;
+    width: 248px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px; 
+    letter-spacing: 21px;
+    padding-left: 21px;
+    z-index: 1;
+    text-transform: uppercase;  
+    /*border: red dotted thin;*/  
+}
+
+#header-logo-img {
+    position: absolute;
+    top: 16px; 
+    left: 0px;    
+    width: 250px; 
+    height: 40px;    
+    /*border: red dotted thin;*/
+}
+
+#header-logo-baseline {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    font-size: 9px; 
+    letter-spacing: 6px;
+}
+
+/**********************************************
+ * Special menu
+ **********************************************/
+
+#header-specialmenu-wrapper {
+    position: absolute;  
+    bottom: 7px;
+    right: 10px; 
+}
+
+.header-specialmenu {
+    position: relative; 
+    float: right;
+    cursor: pointer;
+}
+
+.header-specialmenu-space {
+    position: relative; 
+    float: right;
+    width: 25px;
+    text-align: center;
+}
+
+/**********************************************
+ * Free shipping info
+ **********************************************/
+
+#header-freeshipping-wrapper {
+    position: absolute;  
+    bottom: 36px;
+    right: 10px; 
+}
+
+#header-freeshipping-text {   
+    /*color: white;*/
+    font-style: italic;
+    float: right;
+    height: 20px; 
+    line-height: 22px;
+    margin-left: 5px;
+}
+
+#header-freeshipping-img {   
+    width: 20px; 
+    height: 20px;
+    float: right;
+}

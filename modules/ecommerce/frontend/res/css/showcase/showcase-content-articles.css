@@ -1,0 +1,290 @@
+
+.showcase-content-articles-table {
+    width: 100%; 
+    margin-top: -1px;
+    padding-bottom: 20px;
+    border-spacing: 12px;
+    /*border: 1px solid grey;*/    
+}
+
+.showcase-content-article-column {
+    position: relative; 
+    width: 33.333%;
+    vertical-align: top;
+    padding-bottom: 20px;
+    /*border: 1px solid yellow;*/
+}
+
+.showcase-content-article {
+    margin: 0 auto; 
+    max-width: 270px;
+}
+    
+.showcase-content-article-img-wrapper {
+    position: relative; 
+    cursor: pointer;
+    display: table-cell;
+    vertical-align: middle;
+    /*border: violet solid thin;*/
+}
+
+.showcase-content-article-img {
+    width: 100%;
+    height: 100%;
+    /*border: green solid thin;*/
+}
+
+/**********************************************
+ * BADGES
+ **********************************************/
+.showcase-content-article-badge-wrapper {
+    position: absolute;  
+    width: 60px; 
+    height: 60px;
+}
+.showcase-content-article-badge-img {
+    width: 100%; 
+    height: 100%;
+    top: 0px; 
+    left: 0px; 
+}
+.showcase-content-article-badge-text {
+    position: absolute;  
+    width: 100%; 
+    left: 0px; 
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.showcase-content-article-badge-novelty-wrapper {
+    top: 5px; 
+    left: 5px;  
+}
+.showcase-content-article-badge-novelty-text {
+    top: 26px; 
+    font-size: 10px;
+}
+
+.showcase-content-article-badge-christmas-wrapper {
+    width: 65px; 
+    height: 65px;
+    top: 5px; 
+    right: -0px;  
+}
+.showcase-content-article-badge-christmas-text {
+    top: 26px; 
+    font-size: 10px;
+}
+
+.showcase-content-article-badge-outstanding-wrapper {
+    top: 5px; 
+    left: 5px; 
+}
+.showcase-content-article-badge-outstanding-text {
+    top: 22px; 
+    font-size: 9px;
+}
+
+.showcase-content-article-badge-pack-wrapper {
+    top: 5px; 
+    left: 5px; 
+}
+.showcase-content-article-badge-pack-text {
+    top: 26px; 
+    font-size: 10px;
+}
+
+.showcase-content-article-badge-2ndunitto-wrapper {
+    position: absolute;
+    bottom: 0px; 
+    left: 0px; 
+    width: 100%; 
+    height: 30px;
+    background: red;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+}
+.showcase-content-article-badge-2ndunitto-text1 {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+}
+.showcase-content-article-badge-2ndunitto-text2 {
+    position: absolute;
+    top: 6px; 
+    left: 100px; 
+    font-size: 20px;
+}
+.showcase-content-article-badge-2ndunitto-text3 {
+    position: absolute;
+    top: 10px; 
+    left: 150px; 
+}
+
+/**********************************************
+ * TEXT
+ **********************************************/
+.showcase-content-article-text-wrapper {
+    margin-top: -6px;
+    padding: 10px 0px;
+}
+
+.showcase-content-article-brand {
+    font-size: 16px;
+}
+
+.showcase-content-article-gamma {
+    font-size: 10px;
+    height: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    /*border: #00FF00 solid thin;*/
+}
+
+.showcase-content-article-title {
+    font-size: 12px;
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px 6px;
+    /*border: #00FF00 solid thin;*/
+}
+
+.showcase-content-article-display {
+    font-size: 10px;
+    height: 10px;
+    margin-top: 2px;
+    /*border: #00FF00 solid thin;*/
+}
+
+/**********************************************
+ * PRICES
+ **********************************************/
+.showcase-content-article-prices-wrapper {
+    padding: 5px 0px; 
+}
+
+.showcase-content-article-prices {
+    position: relative; 
+    width: 200px;
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.showcase-content-article-prices-strikethrough-price {
+    width: 100%; 
+    text-decoration: line-through;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.showcase-content-article-prices-new-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.showcase-content-article-prices-discount {
+    position: absolute;  
+    width: 40px; 
+    height: 40px;
+    top: 0px; 
+    left: 150px; 
+}
+
+.showcase-content-article-prices-discount-img {
+    width: 100%; 
+    height: 100%;
+    top: 0px; 
+    left: 0px; 
+}
+
+.showcase-content-article-prices-discount-text {
+    position: absolute;  
+    width: 100%; 
+    top: 13px; 
+    left: 0px; 
+    color: white;
+    text-align: center;
+}
+
+/**********************************************
+ * ADD TO CART
+ **********************************************/
+.showcase-content-article-addtocart-wrapper {
+    height: 42px;
+    margin-bottom: 5px;
+}
+.showcase-content-article-no-stock {
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 13px;
+    letter-spacing: 2px;
+}
+
+.showcase-content-article-addtocart {
+    
+}
+
+.showcase-content-article-addtocart-table {
+    width: 100%;
+    height: 100%;
+}
+
+.showcase-content-article-addtocart-column {
+    text-align: center;
+    /*border: red solid thin;*/
+}
+
+.showcase-content-article-addtocart-column-amount-stock {
+    padding-left: 40px;
+}
+
+.showcase-content-article-addtocart-stock {
+    font-size: 10px;
+    height: 14px;
+    margin-top: -17px;
+}
+
+.showcase-content-article-addtocart-stock-value {
+    color: red;
+    font-weight: bold;
+}
+
+.showcase-content-article-addtocart-amount-spinner {
+    width: 25px;
+    text-align: center;
+}
+
+.showcase-content-article-addtocart-column-button {
+    padding: 5px 30px 5px 0px;
+}
+
+.showcase-content-article-addtocart-button {
+    position: relative;    
+    height: 32px;
+    padding-left: 7px;
+    text-align: left;   
+}
+
+.showcase-content-article-addtocart-button-img {
+    position: relative;
+    float: left;
+    width: 15px; 
+    height: 15px;   
+}
+
+.showcase-content-article-addtocart-button-text {
+    position: relative;
+    float: left;
+    margin: 7px 10px 0 5px;
+}
+
+.showcase-content-article-column-delimiter-bottom {
+    height: 20px;
+}

@@ -1,0 +1,38 @@
+
+#page-parent {
+    background: white;
+}
+
+#page-parent-center {
+    position: relative; 
+    width: 960px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+}
+
+#page-content {
+    text-align: justify;
+    padding: 20px 0px 20px 0;
+    font-size: 14px;
+}
+
+.page-content-title {
+    border-bottom: #000000 dotted thin;
+    font-weight: bold;
+    color: #6d5a00; 
+    font-size: 16px;
+}
+
+#page-content a {
+    text-decoration: underline;
+    color: grey;
+}
+
+#page-content a:hover {
+    color: black;
+}
+
+.page-content-margin-li {
+    margin-top: 10px;   
+}

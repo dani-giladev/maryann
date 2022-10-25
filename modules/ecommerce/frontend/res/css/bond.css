@@ -1,0 +1,32 @@
+
+#bond-wrapper {
+    background: white;
+    border-bottom: 4px solid black;
+}
+
+#bond-wrapper-center {
+    position: relative; 
+    max-width: 960px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+}
+
+#bond-content {
+    padding: 25px 5px;
+    font-size: 14px;
+    text-align: justify;    
+}
+
+#bond-success-text {
+    font-size: 20px;
+}
+
+.bond-title {
+    width: 100%;
+    /*margin-top: 5px;*/
+}
+
+.bond-field-wrapper {
+    padding-bottom: 8px;
+}

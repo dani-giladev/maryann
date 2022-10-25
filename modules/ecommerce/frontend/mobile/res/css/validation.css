@@ -1,0 +1,41 @@
+
+#validation {
+    position: relative; 
+    padding: 0px;
+}
+
+.validation-title {
+    width: 100%;
+}
+
+#validation-content {
+    position: relative; 
+    
+    font-size: 14px;
+    text-align: justify;
+    
+    background: white; 
+    color: dimgrey;       
+    border: silver solid thin;
+}
+
+#validation-content-wrapper {
+    position: relative; 
+    margin: 10px;
+}
+
+#validation-content-thanks{
+    font-weight: bold;
+    color: black;
+}
+
+#validation-content-website {     
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;   
+    text-shadow: 0 1px 1px rgba(0,0,0,.5);
+}
+
+#validation-content-totalprice {
+    font-weight: bold;
+}

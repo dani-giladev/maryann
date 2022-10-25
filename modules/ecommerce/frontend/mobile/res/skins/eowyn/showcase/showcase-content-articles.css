@@ -1,0 +1,48 @@
+
+.showcase-content-articles-table {
+    background: white;
+}
+
+.showcase-content-article-anchor {
+    text-decoration: none;
+}
+
+.showcase-content-article-table {
+    border-bottom: 1px solid grey;
+}
+
+.showcase-content-article-gamma {
+    
+}
+
+.showcase-content-article-title {
+    text-decoration: none;
+    color: black !important;
+}
+
+.showcase-content-article-display {
+
+}
+
+.showcase-content-article-brand {
+    line-height: 40px;
+    text-decoration: none;
+}
+
+/**********************************************
+ * PRICES
+ **********************************************/
+
+.showcase-content-article-prices {
+    text-shadow: none !important;
+}
+
+.showcase-content-article-prices-strikethrough-price {
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.showcase-content-article-prices-new-price {
+    font-size: 16px;
+    font-weight: bold;
+}

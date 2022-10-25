@@ -1,0 +1,28 @@
+[
+    {
+        "alias": "main",
+        "icon": "x-fa fa-sun-o",
+        "children": 
+        [   
+            { 
+                "alias": "website",
+                "icon": "x-fa fa-globe"
+            },
+            { 
+                "alias": "webpage",
+                "icon": "x-fa fa-at"
+            }
+        ] 
+    },
+    {
+        "alias": "tools",
+        "icon": "x-fa fa-wrench",
+        "children": 
+        [   
+            { 
+                "alias": "fileManager",
+                "icon": "x-fa fa-folder-open"
+            }
+        ] 
+    }
+]

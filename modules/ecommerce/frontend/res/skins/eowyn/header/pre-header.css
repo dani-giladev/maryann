@@ -1,0 +1,25 @@
+
+.pre-header {
+    background: black;
+}
+
+.pre-header-menu-border-right {
+    border-right: 1px solid #4b515f;
+}
+
+#pre-header-languages {
+    color: white;
+}
+
+.pre-header-menu-login {
+    color: white;
+}
+
+.pre-header-menu-login:hover {
+    /*color: darkgrey;*/
+    font-weight: bold;
+}
+
+#pre-header-hello {
+    color: #c0a00a; 
+}

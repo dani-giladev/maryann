@@ -1,0 +1,31 @@
+
+.pre-header {
+    background: whitesmoke;
+    border-bottom: 1px solid lightgrey;
+}
+
+.pre-header-menu-border-left {
+    border-left: 1px solid lightgrey;
+}
+
+.pre-header-menu-border-right {
+    border-right: 1px solid lightgrey;
+}
+
+#pre-header-languages {
+    color: grey;
+}
+
+.pre-header-menu-login {
+    color: #4b515f;
+}
+
+.pre-header-menu-login:hover {
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+
+#pre-header-hello {
+    color: #c0a00a; 
+}

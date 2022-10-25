@@ -1,0 +1,40 @@
+
+
+/**********************************************
+ * CAROUSEL
+ **********************************************/
+
+#article-detail-carousel-wrapper {
+    border: 10px solid #fff;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+/*    -webkit-box-shadow: 0 0 2px #999;
+       -moz-box-shadow: 0 0 2px #999;
+            box-shadow: 0 0 2px #999;*/
+}
+
+/**********************************************
+ * INTRODUCTION
+ **********************************************/
+
+#article-detail-introduction {
+    background: white;
+    border: 10px solid #fff;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+/*    -webkit-box-shadow: 0 0 2px #999;
+       -moz-box-shadow: 0 0 2px #999;
+            box-shadow: 0 0 2px #999;*/
+}
+
+.article-detail-introduction-line-delimiter {
+    border-bottom: #000000 dotted thin;
+}
+
+#article-detail-no-stock {
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: red;
+}

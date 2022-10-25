@@ -1,0 +1,25 @@
+
+#action-buttons {
+    position: relative; 
+    height: 66px;
+    padding: 5px 10px 0px 10px;
+}
+
+.action-buttons-delimiter {
+    position: relative;
+    width: 100%;
+    height: 52px;
+}
+
+.action-buttons-left-position {
+    float: left;
+}
+
+.action-buttons-right-position {
+    float: right;
+}
+
+.action-buttons-center-position {
+    text-align: center;
+}
+

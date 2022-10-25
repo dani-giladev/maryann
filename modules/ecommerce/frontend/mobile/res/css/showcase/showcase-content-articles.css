@@ -1,0 +1,102 @@
+
+.showcase-content-articles-table {
+    position: relative;
+    width: 100%;
+    margin-top: -10px;
+    border-collapse: collapse;    
+}
+
+.showcase-content-articles-table tr td { 
+    padding: 0px; 
+}
+
+.showcase-content-article-table {
+    width: 100%;
+}
+
+.showcase-content-article-column-img {
+    width: 150px;
+    height: 150px;
+}
+
+.showcase-content-article-img-wrapper {
+    position: relative; 
+}
+
+.showcase-content-article-img {
+    width: 150px;
+    height: 150px;
+}
+
+.showcase-content-article-column-content {
+    position: relative;
+    font-size: 12px;
+}
+
+.showcase-content-article-text-wrapper {
+    margin-left: 10px;
+}
+
+/**********************************************
+ * BADGES
+ **********************************************/
+.showcase-content-article-badge-2ndunitto-wrapper {
+    position: absolute;
+    bottom: 0px; 
+    left: 0px; 
+    width: 150px;
+    height: 30px;
+    background: red;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+}
+.showcase-content-article-badge-2ndunitto-text2 {
+    position: absolute;
+    top: 3px; 
+    left: 6px; 
+    font-size: 20px;
+}
+.showcase-content-article-badge-2ndunitto-text3 {
+    position: absolute;
+    top: 10px; 
+    left: 55px; 
+}
+
+/**********************************************
+ * PRICES
+ **********************************************/
+
+.showcase-content-article-prices {
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    height: 40px;
+}
+
+.showcase-content-article-prices-strikethrough-price {
+    width: 100%; 
+}
+
+.showcase-content-article-prices-new-price {
+
+}
+
+/**********************************************
+ * ADD TO CART
+ **********************************************/
+.showcase-content-article-no-stock {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 80px;
+    height: 20px;
+    font-size: 8px;
+    font-style: italic;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    background: red;
+    color: white;
+}

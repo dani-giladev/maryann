@@ -1,0 +1,162 @@
+
+.page-center {
+    position: relative; 
+    max-width: 1200px;
+    min-width: 960px;
+    margin: 0 auto;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none; 
+    color: #666;
+} 
+
+a.focus {
+    text-decoration: none; 
+}
+
+a:link {
+    text-decoration: none; 
+} 
+
+a:visited {
+    text-decoration: none; 
+} 
+
+a:active {
+    text-decoration: none; 
+} 
+
+a:hover {
+    text-decoration: underline; 
+    color: #1d1d1d;
+} 
+
+ /*IE9*/ 
+a img
+{
+     border: 0px;
+}
+
+nav {
+    z-index: 999;
+}
+
+.nav-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.checkbox {
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;  
+    position: relative;
+    top: -1px;
+    cursor: pointer;
+}
+
+.checkbox-label {
+    display: block;
+    cursor: pointer;
+}
+
+.checkbox-multi-items {
+    margin-top: 5px;
+}
+
+.cursor-default {
+    cursor: default;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* Let's get this party started */
+.scrollable::-webkit-scrollbar {
+/*    width: 10px;
+    background-color: #FFFFFF;*/
+    
+    width: 16px;
+}
+/* Track */
+.scrollable::-webkit-scrollbar-track {
+/*    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;*/
+    
+    background: silver;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
+}
+.scrollable-onbackground::-webkit-scrollbar-track {
+    border-left: 7px solid #e3dfd6;
+    border-right: 7px solid #e3dfd6;
+}
+/* Handle */
+.scrollable::-webkit-scrollbar-thumb {
+/*    -webkit-border-radius: 10px;
+    height: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    background-color: #000000;    */
+    
+    background: black;
+    border-left: 5px solid white;
+    border-right: 5px solid white;   
+}
+.scrollable-onbackground::-webkit-scrollbar-thumb {
+    border-left: 5px solid #e3dfd6;
+    border-right: 5px solid #e3dfd6;
+}
+.scrollable::-webkit-scrollbar-thumb:window-inactive {
+    /*background-color: #000000;*/    
+}
+
+.button-disabled {
+    /*COLOR*/
+    border: 1px solid white;     
+    background: #d3d3d3;
+    color: white;    
+    cursor: default !important;
+}
+
+.button-continueshopping {
+    /*COLOR*/
+    border: 1px solid #d3d3d3;     
+    background: grey;
+    color: white;    
+}
+.button-continueshopping:hover {
+    background: #656565;
+}
+
+/* Fade in/out */
+@-webkit-keyframes fadeout {
+    0% {opacity: 1; visibility: visible;}
+    99% {opacity: 0;}
+    100% {opacity: 0; visibility: hidden;}
+}
+.fadeout {
+    -webkit-animation: fadeout 2s linear;
+    visibility: hidden;
+}
+@-webkit-keyframes fadein {
+    0% {opacity: 0; visibility: visible;}
+    100% {opacity: 1;}
+}
+.fadein {
+    -webkit-animation: fadein 2s linear;
+}

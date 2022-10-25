@@ -1,0 +1,59 @@
+
+#validation-parent {
+    background: transparent;
+}
+
+#validation-parent-center {
+    position: relative; 
+    width: 960px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+}
+
+#validation {
+    position: relative; 
+    width: 700px;
+    height: auto;
+    margin: 0px auto 30px auto;
+    padding: 0px;
+}
+
+.validation-title {
+    width: 100%;
+    padding-left: 20px;
+}
+
+#validation-content {
+    position: relative; 
+    margin-top: 10px;
+    
+    font-size: 14px;
+    text-align: justify;
+    
+    background: white; 
+    color: dimgrey;       
+    border: silver solid thin;
+}
+
+#validation-content-wrapper {
+    position: relative; 
+    margin: 20px;
+    /*border: red dotted thin;*/
+}
+
+#validation-content-thanks{
+    font-weight: bold;
+    color: black;
+}
+
+#validation-content-website {     
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;   
+    text-shadow: 0 1px 1px rgba(0,0,0,.5);
+}
+
+#validation-content-totalprice {
+    font-weight: bold;
+}

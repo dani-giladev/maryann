@@ -1,0 +1,18 @@
+
+/**********************************************
+ * SEARCHER
+ **********************************************/
+
+#searcher {
+    top: 12px; 
+}
+
+#searcher-input {
+/*    background: black;*/
+    border-bottom: 1px solid black;   
+    /*color: white;*/  
+}
+
+#searcher-img {
+    background-image: url("../../../../res/img/search1-black.png");
+}

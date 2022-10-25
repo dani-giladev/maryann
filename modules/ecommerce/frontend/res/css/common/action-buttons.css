@@ -1,0 +1,29 @@
+
+#action-buttons {
+    position: relative; 
+    width: 800px;
+    height: 32px;
+    margin: 40px auto 40px auto;
+    /*border: 1px solid red;*/
+}
+
+.action-buttons-button {
+    width: 250px; 
+    height: 32px;
+}
+
+.action-buttons-left-position {
+    float: left;
+}
+
+.action-buttons-right-position {
+    float: right;
+}
+
+.action-buttons-center-position {
+    text-align: center;
+}
+
+.action-buttons-margin-right {
+    margin-right: 60px;
+}

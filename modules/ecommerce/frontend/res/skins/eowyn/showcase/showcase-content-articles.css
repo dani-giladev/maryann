@@ -1,0 +1,36 @@
+
+.showcase-content-article {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0 0 3px #999;
+       -moz-box-shadow: 0 0 3px #999;
+            box-shadow: 0 0 3px #999;      
+}
+
+.showcase-content-article-img {
+    /*border: 1px solid #fff;*/
+    
+/*    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;*/
+
+/*    -webkit-box-shadow: 0 0 2px #999;
+       -moz-box-shadow: 0 0 2px #999;
+            box-shadow: 0 0 2px #999;        */
+}
+
+.showcase-content-article-text-wrapper {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.showcase-content-article-addtocart-button {
+/*    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -khtml-border-radius: 50%; */
+}
+
+.showcase-content-article-footer { 
+    border-bottom: 10px solid black;
+}

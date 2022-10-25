@@ -1,0 +1,35 @@
+
+
+#login-tooltip {
+    position: relative;  
+    font-weight: normal; 
+    font-size: 12px;
+    padding: 10px; 
+}
+
+.login-tooltip-title { 
+    font-size: 14px;  
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.login-tooltip-info {
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.login-tooltip-fields-field {
+    margin-bottom: 10px;
+}
+
+#login-tooltip-error-msg {
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.login-tooltip-forget-password {
+    margin-left: 5px;
+}

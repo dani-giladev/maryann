@@ -1,0 +1,38 @@
+
+#personal-data-parent {
+    background: transparent;
+}
+
+#personal-data-parent-center {
+    position: relative; 
+    width: 960px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+}
+
+#personal-data {
+    position: relative; 
+    width: 650px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+    /*border: silver solid thin;*/
+}
+
+.personal-data-start-session-info {
+    margin: 0px 0px 20px 20px;
+    font-weight: bold;
+}
+
+.personal-data-title {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.personal-data-fields-wrapper {
+    position: relative; 
+    width: 600px;
+    margin: 20px;
+    /*border: red dotted thin;*/
+}

@@ -1,0 +1,91 @@
+
+#menu-breadcrumbs-center {
+    height: 40px;
+    padding-left: 5px;
+}
+
+#menu-breadcrumbs-table {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-breadcrumbs-column-breadcrumb {
+    position: relative; 
+    width: 100%;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /*border: green dotted thin;*/  
+}
+
+.menu-breadcrumbs-column-shoppingcart {
+    width: auto;
+    padding-left: 10px;
+    /*border: blue dotted thin;*/
+}
+
+#menu-breadcrumbs-wrapper-start-img {
+    position: absolute; 
+    width: 30px;
+    height: 25px;
+    top: 7px; 
+    left: 0px;
+}
+
+#menu-breadcrumbs-wrapper-text {
+    position: absolute; 
+    width: auto;
+    height: auto;
+    top: 14px; 
+    left: 30px;
+}
+
+.menu-breadcrumbs-start-text {
+    font-size: 14px;
+}
+
+.menu-breadcrumbs-brand-text {
+    font-size: 14px;
+}
+
+.menu-breadcrumbs-brand-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu-breadcrumbs-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu-breadcrumbs-breadcrumb {
+    font-size: 14px;
+}
+
+.menu-breadcrumbs-breadcrumb-only-text {
+    font-weight: bold;
+}
+
+.menu-breadcrumbs-delimiter {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Use this next selector to style things like font-size and line-height: */
+.menu-breadcrumbs-breadcrumb-article-tooltip-theme
+/*.tooltipster-box*/ 
+{
+    /*border-radius: 5px;*/ 
+    border: 2px solid #c0a00a;
+    background: white;
+}
+.menu-breadcrumbs-breadcrumb-article-tooltip-theme .tooltipster-content {
+    line-height: 16px;
+    padding: 10px;
+    color: black;
+}
+
+#menu-breadcrumbs-breadcrumb-article-tooltip-wrapper {
+    font-size: 14px;
+    font-weight: bold;
+}

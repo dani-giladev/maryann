@@ -1,0 +1,32 @@
+
+#menu-main {
+    background: whitesmoke;
+    border-top: 1px solid lightgrey;
+/*    border-bottom: 1px solid lightgrey;*/
+}
+
+#menu-main-center {
+    border-left: 1px solid lightgrey;
+    /*border-right: 1px solid lightgrey;*/
+}
+
+#menu-main-center a {
+    color: #4b515f;
+    text-decoration: none;
+    border-right: 1px solid lightgrey;
+}
+
+/**********************************************
+ * FIRST LEVEL
+ **********************************************/
+
+.menu-main-firstlevel:hover {
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+.menu-main-firstlevel-hover {
+    background: white;
+    color: black;
+    font-weight: bold;
+}

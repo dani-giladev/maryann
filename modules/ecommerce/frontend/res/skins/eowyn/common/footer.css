@@ -1,0 +1,94 @@
+
+.footer-delimiter {
+    border-bottom: 1px solid white;
+}
+
+/**********************************************
+ * First row
+ **********************************************/
+
+#footer-firstrow {
+    background: black;
+}
+
+.footer-firstrow-table-column-border-right {
+    border-right: 1px solid #4b515f;
+}
+
+#footer-firstrow-table-column-attention-to-customer-title {
+    color: darkgrey;
+}
+
+#footer-firstrow-table-column-attention-to-customer-phone-img {  
+    background-image: url("../../../../res/img/phone-white.png");
+}
+
+#footer-firstrow-table-column-attention-to-customer-phone-number {
+    color: white;
+}
+
+#footer-firstrow-table-column-attention-to-customer-phone-info {
+    color: white;
+}
+
+#footer-firstrow-table-column-attention-to-customer-email-text {    
+    color: white;   
+}
+
+#footer-firstrow-table-column-attention-to-customer-email-img {
+    background-image: url("../../../../res/img/mail-white.png");
+}
+
+.footer-firstrow-content-link {
+    color: darkgrey;
+}
+
+.footer-firstrow-content-link:hover {
+    color: darkgrey;
+}
+
+/**********************************************
+ * 4 ICONS
+ **********************************************/
+
+#footer-4icons {
+    background: #c0a00a;
+}
+
+.footer-4icons-text {
+    /*color: darkgrey;*/
+    /*color: #6d5a00;*/
+    color: black;
+}
+
+/**********************************************
+ * Payment
+ **********************************************/
+
+#footer-payment {
+    background: black;
+}
+
+#footer-payment-content-secure-payment-text {
+    color: darkgrey;
+}
+
+/**********************************************
+ * Legal
+ **********************************************/
+
+#footer-legal {
+    background: black;
+}
+
+.footer-legal-content-link {
+    color: darkgrey;
+}
+
+.footer-legal-content-link:hover {
+    color: darkgrey;
+}
+
+.footer-legal-content-delimiter {
+    color: silver;
+}

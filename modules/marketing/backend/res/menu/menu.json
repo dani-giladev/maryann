@@ -1,0 +1,14 @@
+[   
+    {
+        "alias": "articleGroup",
+        "icon": "x-fa fa-object-group"
+    },
+    {
+        "alias": "promo",
+        "icon": "x-fa fa-star"
+    },
+    {
+        "alias": "voucher",
+        "icon": "x-fa fa-gift"
+    }     
+]

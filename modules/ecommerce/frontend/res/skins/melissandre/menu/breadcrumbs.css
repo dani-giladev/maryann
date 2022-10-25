@@ -1,0 +1,26 @@
+
+#menu-breadcrumbs {
+    background: #FFFFFF;
+    border-top: 1px solid lightgrey;
+    border-bottom: #000000 dotted thin;
+}
+
+.menu-breadcrumbs-start-text {
+    color: #4b515f;
+}
+
+.menu-breadcrumbs-brand-name {
+    color: black;
+}
+
+.menu-breadcrumbs-breadcrumb a {
+    color: #4b515f;
+}
+
+.menu-breadcrumbs-breadcrumb-only-text {
+    color: black;
+}
+
+.menu-breadcrumbs-delimiter {
+    color: black
+}

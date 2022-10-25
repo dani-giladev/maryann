@@ -1,0 +1,12 @@
+
+#shoppingcart-menu-option-image {
+    background-image: url("../../../../res/img/shoppingcarts/shoppingcart5-black.png");
+}
+
+#shoppingcart-menu-option-amount {
+    background: #c0a00a;
+}
+
+.shoppingcart-menu-option-tooltip-totals-table-details {
+    border-bottom: #c0c0c0 solid thin;
+}

@@ -1,0 +1,93 @@
+[
+    {
+        "alias": "brands_and_gammas",
+        "icon": "x-fa fa-html5",
+        "children": 
+        [     
+            { 
+                "alias": "laboratory",
+                "icon": "x-fa fa-flask"
+            }, 
+            { 
+                "alias": "brand",
+                "icon": "x-fa fa-html5"
+            },
+            { 
+                "alias": "gamma",
+                "icon": "x-fa fa-tag"
+            }
+        ] 
+    },
+    {
+        "alias": "categories_group",
+        "icon": "x-fa fa-tree",
+        "children": 
+        [
+            { 
+                "alias": "categories",
+                "icon": "x-fa fa-tree"
+            }
+        ] 
+    },
+    {
+        "alias": "articles",
+        "icon": "x-fa fa-diamond",
+        "children": 
+        [
+            { 
+                "alias": "article",
+                "icon": "x-fa fa-diamond"
+            },
+            { 
+                "alias": "articleType",
+                "icon": "x-fa fa-anchor"
+            },
+            { 
+                "alias": "articleFamily",
+                "icon": "x-fa fa-object-group"
+            },
+            { 
+                "alias": "articleProperty",
+                "icon": "x-fa fa-star"
+            }
+        ] 
+    },
+    {
+        "alias": "salesmenu",
+        "icon": "x-fa fa-stack-overflow",
+        "children": 
+        [
+            { 
+                "alias": "saleRate",
+                "icon": "x-fa fa-tumblr-square"
+            },
+            { 
+                "alias": "sales",
+                "_model": "sale",
+                "icon": "x-fa fa-stack-overflow"
+            }
+        ] 
+    },    
+    {
+        "alias": "users",
+        "icon": "x-fa fa-user",
+        "children": 
+        [    
+            { 
+                "alias": "user",
+                "icon": "x-fa fa-user"
+            }
+        ] 
+    },    
+    {
+        "alias": "tools",
+        "icon": "x-fa fa-wrench",
+        "children": 
+        [   
+            { 
+                "alias": "fileManager",
+                "icon": "x-fa fa-folder-open"
+            }
+        ] 
+    }  
+]

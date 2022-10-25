@@ -1,0 +1,64 @@
+
+#pre-header-center {
+    height: 25px;
+    overflow: hidden;
+}
+
+#pre-header-socialmedia {
+    position: relative;  
+    float: right;
+    margin: 1px 0px 0px 20px;
+}
+
+.pre-header-languages {
+    position: relative;  
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    line-height: 27px;
+    vertical-align: middle;
+    float: right; 
+    cursor: pointer;
+}
+
+#pre-header-languages-tooltip {
+    position: relative;  
+    width: 80px;
+    padding-left: 8px;
+    font-weight: normal; 
+    font-size: 12px;    
+}
+
+.pre-header-languages-tooltip-lang {
+    padding: 3px;
+}
+
+.pre-header-languages-tooltip-lang-img {
+    margin-bottom: -1px;
+}
+
+.pre-header-languages-tooltip-lang-text {
+    margin-left: 5px;
+}
+
+.pre-header-languages-tooltip-lang-text:hover {
+    font-weight: bold;
+}
+
+.pre-header-menu-login {
+    position: relative;  
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    line-height: 25px;
+    vertical-align: middle;
+    float: right;
+    cursor: pointer;
+}
+
+#pre-header-hello {
+    position: relative; 
+    margin: 5px 10px 0px 0px;
+    float: right;
+    cursor: default;
+}

@@ -1,0 +1,10 @@
+
+
+#brands-content-title {
+    text-shadow: none !important;
+    border-bottom: 1px solid grey;
+}
+
+.brand {
+    text-decoration: none !important;
+}

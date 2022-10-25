@@ -1,0 +1,105 @@
+
+/**********************************************
+ * FINAL STEPS MENÚ
+ **********************************************/
+
+#final-steps-menu {
+    padding: 20px 0px;
+}
+
+#final-steps-menu-table {
+    width: 100%;
+    text-align: center;
+}
+
+.final-steps-menu-table-row {
+    
+}
+
+.final-steps-menu-table-column {
+    width: 20%;
+    cursor: default;
+    color: #999;
+}
+
+.final-steps-menu-table-column-div-number {
+    width: 100%;
+    font-weight: bold;
+    font-size: 28px;
+    padding-top: 10px;
+    background: transparent;
+}
+
+.final-steps-menu-table-column-div-description {
+    width: 100%;
+    font-size: 15px;
+    padding-bottom: 10px;
+    color: white;
+    background: transparent;
+}
+
+.final-steps-menu-border-left {
+    border-left: white solid thin;
+}
+
+.final-steps-menu-link {
+    cursor: pointer;
+    /*color: black;*/
+    color: white;
+}
+
+.final-steps-menu-link:hover {
+    color: white;
+    text-decoration: none !important;
+}
+
+/*STATUS*/
+.final-steps-menu-last-status {
+    /*Green*/
+/*    background:                         #17cd64;
+    background:        -webkit-gradient(#17cd64, #10913e);
+    background: -webkit-linear-gradient(#17cd64, #10913e);
+    background:    -moz-linear-gradient(#17cd64, #10913e);
+    background:      -o-linear-gradient(#17cd64, #10913e);
+    background:     -ms-linear-gradient(#17cd64, #10913e);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17cd64', endColorstr='#10913e', GradientType=0 );
+    background:         linear-gradient(#17cd64, #10913e);*/
+    
+    /*Dark green deemm*/
+    background: #6d5a00;
+    
+    filter: none; /*IE9*/  
+}
+.final-steps-menu-last-status:hover {
+    /*Green*/
+    /*background: green;*/
+    /*Green deemm*/
+    background: #c0a00a;
+}
+.final-steps-menu-current-status {
+    /*Orange*/
+/*    background:                         #fd6b1b;
+    background:        -webkit-gradient(#fd6b1b, #b33700);
+    background: -webkit-linear-gradient(#fd6b1b, #b33700);
+    background:    -moz-linear-gradient(#fd6b1b, #b33700);
+    background:      -o-linear-gradient(#fd6b1b, #b33700);
+    background:     -ms-linear-gradient(#fd6b1b, #b33700);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd6b1b', endColorstr='#b33700', GradientType=0 );
+    background:         linear-gradient(#fd6b1b, #b33700);      */
+    
+    /*Dark green deemm*/
+    background:                         #c0a00a;
+    background:        -webkit-gradient(#c0a00a, #6d5a00);
+    background: -webkit-linear-gradient(#c0a00a, #6d5a00);
+    background:    -moz-linear-gradient(#c0a00a, #6d5a00);
+    background:      -o-linear-gradient(#c0a00a, #6d5a00);
+    background:     -ms-linear-gradient(#c0a00a, #6d5a00);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0a00a', endColorstr='#6d5a00', GradientType=0 );
+    background:         linear-gradient(#c0a00a, #6d5a00);
+    
+    filter: none; /*IE9*/ 
+    color: white;
+}
+.final-steps-menu-future-status {
+    background: lightgrey;
+}

@@ -1,0 +1,42 @@
+
+#menu-breadcrumbs {
+    
+    /*Apivita*/
+    /*background: #e3dfd6;*/
+    /*Green deemm*/
+    background: #c0a00a;
+    /*Dark green deemm*/
+    /*background: #6d5a00;*/
+    
+    /*Green deemm*/
+/*    background:                         #c0a00a;
+    background:        -webkit-gradient(#c0a00a, #6d5a00);
+    background: -webkit-linear-gradient(#c0a00a, #6d5a00);
+    background:    -moz-linear-gradient(#c0a00a, #6d5a00);
+    background:      -o-linear-gradient(#c0a00a, #6d5a00);
+    background:     -ms-linear-gradient(#c0a00a, #6d5a00);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0a00a', endColorstr='#6d5a00', GradientType=0 );
+    background:         linear-gradient(#c0a00a, #6d5a00);*/
+    
+    border-bottom: 1px solid black;
+}
+
+.menu-breadcrumbs-start-text {
+    color: #4b515f;
+}
+
+.menu-breadcrumbs-brand-name {
+    color: black;
+}
+
+.menu-breadcrumbs-breadcrumb a {
+    color: #4b515f;
+}
+
+.menu-breadcrumbs-breadcrumb-only-text {
+    color: black;
+}
+
+.menu-breadcrumbs-delimiter {
+    color: black;
+}

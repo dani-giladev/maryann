@@ -1,0 +1,52 @@
+
+#brands-page {
+    background: transparent;
+}
+
+#brands-page-center {
+    margin-bottom: 40px;
+    padding: 0px 10px;
+}
+
+#brands-content-title {
+    text-align: center;
+    padding: 5px;
+}
+
+.brands-content-letter-title {
+    font-size: 16px;
+    margin: 20px 0px 10px 0px;
+}
+
+.brands-content-letter-outstanding-title {
+    font-size: 12px;
+}
+
+.brands-content-table {
+    width: 100%;
+    text-align: center;
+}
+
+.brands-content-column {
+    width: 20%;
+    padding: 5px;
+    vertical-align:  top;
+    /*border: violet solid thin;*/
+}
+
+.brands-content-brand-text {
+    font-size: 12px;
+}
+
+.brands-content-brand-img {
+    width: 60%;
+    height: 60%;
+    padding: 10px;
+    margin: 5px;
+    border: silver solid thin;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;        
+    -o-border-radius: 4px;
+    -khtml-border-radius:  4px;  
+}

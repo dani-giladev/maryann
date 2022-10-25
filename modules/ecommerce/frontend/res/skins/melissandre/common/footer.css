@@ -1,0 +1,84 @@
+
+/**********************************************
+ * First row
+ **********************************************/
+
+#footer-firstrow {
+    background: whitesmoke;
+    /*border-top: 10px solid lightgrey;*/
+    border-top: 3px solid #4b515f;
+}
+
+.footer-firstrow-table-column-border-right {
+    border-right: 1px solid lightgrey;
+}
+
+#footer-firstrow-table-column-attention-to-customer-title {
+    color: darkgrey;
+}
+
+#footer-firstrow-table-column-attention-to-customer-phone-img {  
+    background-image: url("../../../../res/img/phone-black.png");
+}
+
+#footer-firstrow-table-column-attention-to-customer-phone-number {        
+    color: black;
+}
+
+#footer-firstrow-table-column-attention-to-customer-email-text {    
+    color: black;   
+}
+
+#footer-firstrow-table-column-attention-to-customer-email-img {
+    background-image: url("../../../../res/img/mail-black.png");
+}
+
+.footer-firstrow-content-link {
+    color: silver;
+}
+
+.footer-firstrow-content-link:hover {
+    color: white;
+}
+
+/**********************************************
+ * 4 ICONS
+ **********************************************/
+
+#footer-4icons {
+    background: whitesmoke;
+    border-top: 1px solid lightgrey;
+}
+
+/**********************************************
+ * Payment
+ **********************************************/
+
+#footer-payment {
+    background: whitesmoke;
+    border-top: 1px solid lightgrey;
+}
+
+#footer-payment-content-secure-payment-text {
+    color: darkgrey;
+}
+
+/**********************************************
+ * Legal
+ **********************************************/
+
+#footer-legal {
+    background: #4b515f;
+}
+
+.footer-legal-content-link {
+    color: silver;
+}
+
+.footer-legal-content-link:hover {
+    color: white;
+}
+
+.footer-legal-content-delimiter {
+    color: silver;
+}

@@ -1,0 +1,21 @@
+
+#error-404-parent {
+    background: transparent;
+}
+
+#error-404-parent-center {
+    position: relative; 
+    width: 960px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+}
+
+#error-404-content {
+    text-align: justify;
+}
+
+#error-404-content-img {
+    display: block;
+    margin: 40px auto 40px auto;
+}

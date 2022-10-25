@@ -1,0 +1,121 @@
+
+#menu-main-center {
+
+}
+
+/**********************************************
+ * FIRST LEVEL
+ **********************************************/
+
+#menu-main-firstlevel-table {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-main-firstlevel-column {
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+
+.menu-main-firstlevel {
+    position: relative;
+    height: 40px;     
+    display: block;
+    margin: 0 auto;
+    /*border: 1px solid white;*/
+}
+
+.menu-main-firstlevel-text {
+    cursor: pointer;
+    /*text-transform: uppercase;*/
+    letter-spacing: 1px;
+    font-weight: bold;
+    /*border: 1px solid blue;*/
+}
+
+.menu-main-firstlevel-touch {
+    cursor: default;
+}
+
+/**********************************************
+ * SECOND LEVEL FOR CATEGORIES
+ **********************************************/
+
+.menu-main-tooltip-touch-view-all-firstlevel-category {
+    font-style: italic;
+}
+.menu-main-tooltip-touch-view-all-firstlevel-category:hover {
+    /*font-weight: bold;*/
+}
+
+/**********************************************
+ * TOOLTIP FOR CATEGORIES
+ **********************************************/
+
+.menu-main-tooltip-theme 
+/*.tooltipster-box*/
+{
+    /*border-radius: 5px;*/ 
+    border: 2px solid #c0a00a;
+    background: white;
+}
+/* Use this next selector to style things like font-size and line-height: */
+.menu-main-tooltip-theme .tooltipster-content {
+    line-height: 16px;
+    padding: 10px;  
+    color: black;   
+}
+
+.menu-main-tooltip {
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-size: 12px;
+    padding: 5px 10px 0px 10px;
+}
+
+/**********************************************
+ * SECOND LEVEL FOR CATEGORIES
+ **********************************************/
+
+.menu-main-tooltip-table {
+    margin-bottom: 10px;
+}
+.menu-main-tooltip-table-column {
+    text-align: center;
+    vertical-align: top;
+    /*border: 1px solid blue;*/
+}
+
+.menu-main-tooltip-table-column-categories {
+    width: 200px;
+}
+
+.menu-main-tooltip-table-column-specialoffers {
+    width: 300px;
+}
+
+.menu-main-tooltip-touch-view-all-firstlevel-category-delimiter {
+    height: 8px;
+}
+
+.menu-main-tooltip-specialoffers-table {
+    /*text-align: right;*/
+    width: 100%;
+    height: 100%;
+}
+
+.menu-main-tooltip-specialoffers-column-delimiter {
+    width: 20px;
+    /*border: 1px solid green;*/
+}
+.menu-main-tooltip-specialoffers-column-article-text {
+    padding: 5px;
+    border-bottom: 1px solid black;
+    /*font-size: 14px;*/
+}
+
+.menu-main-tooltip-specialoffers-column-article-img {
+    width: 200px;
+    height: 200px;
+}

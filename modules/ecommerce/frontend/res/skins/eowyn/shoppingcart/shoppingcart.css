@@ -1,0 +1,74 @@
+
+#shoppingcart {
+    background: transparent;
+}
+
+/**********************************************
+ * ARTICLES TABLE
+ **********************************************/
+
+.shoppingcart-content-articles-table-column {
+    border-bottom: #c0c0c0 solid thin;
+}
+
+/**********************************************
+ * ARTICLE COLUMN
+ **********************************************/
+
+.shoppingcart-content-articles-table-column-article-content-img {
+    border: 10px solid #fff;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+       -moz-box-shadow: 0 0 2px #999;
+            box-shadow: 0 0 2px #999;     
+}
+
+/**********************************************
+ * AMOUNT COLUMN
+ **********************************************/
+
+.shoppingcart-content-articles-table-column-amount-content-x {
+    color: grey;
+}
+
+/**********************************************
+ * PRICE COLUMN
+ **********************************************/
+
+.shoppingcart-content-articles-table-column-price-content-trash {
+        /*SHAPE*/
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;        
+    -o-border-radius: 0.2em;
+    -khtml-border-radius:  0.2em;  
+    
+    /*COLOR*/
+    /*border: 1px solid black;*/       
+}
+
+/**********************************************
+ * TOTALS TABLE
+ **********************************************/
+
+.shoppingcart-content-totals-table {
+    border-bottom: #c0c0c0 solid thin;
+}
+
+.shoppingcart-content-totals-label {
+    color: grey;   
+}
+
+#shoppingcart-content-totals-trash-img {
+        /*SHAPE*/
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;        
+    -o-border-radius: 0.2em;
+    -khtml-border-radius:  0.2em;  
+    
+    /*COLOR*/
+    /*border: 1px solid black;*/    
+}

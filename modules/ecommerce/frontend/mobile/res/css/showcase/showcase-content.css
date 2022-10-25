@@ -1,0 +1,111 @@
+
+#showcase-content-title {
+    margin: 0;
+}
+
+#showcase-content-menu {
+    
+}
+
+#showcase-content-menu-buttons-table {
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px 20px;
+    /*border: red solid thin;*/
+}
+
+.showcase-content-menu-50 {
+    width: 50%;
+}
+
+#showcase-content-menu-buttons-table td a {
+    margin: 0;
+}
+
+.showcase-content-menu-rightpadding {
+    padding-right: 5px;
+}
+
+.showcase-content-menu-leftpadding {
+    padding-left: 5px;
+    
+}
+#showcase-content-menu-sortby-wrapper {
+    padding: 4px 20px 5px 20px;
+    margin-bottom: 10px;
+}
+
+#showcase-content-footer-paging-wrapper {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.showcase-content-footer-paging-delimiter {
+    letter-spacing: 5px;
+}
+
+/**********************************************
+ * DESCRIPTION
+ **********************************************/
+
+#showcase-content-description-wrapper {
+    position: relative; 
+    margin: 10px 20px 0px 20px;
+    padding: 20px;
+}
+
+#showcase-content-description-table {
+    width: 100%;
+}
+
+#showcase-content-description-img {
+    width: 100px;
+    height: 100px;
+    padding-right: 18px;
+}
+
+#showcase-content-description-desc {
+    font-size: 14px;
+    text-align: justify;
+}
+
+#showcase-content-description-delimiter {
+    /*margin-bottom: 8px;*/
+}
+
+/**********************************************
+ * SEARCH RESULT
+ **********************************************/
+
+#showcase-content-searchresult-wrapper {
+    position: relative; 
+    padding: 10px;
+    font-size: 14px;
+}
+
+.showcase-content-searchresult-title {
+    font-size: 16px;
+    margin: 20px 0px 10px 0px;
+}
+
+.showcase-content-searchresult-table {
+    width: 100%;
+    margin-top: 10px;
+}   
+
+.showcase-content-searchresult-table-column-title {
+    font-weight: bold;
+}
+
+.showcase-content-searchresult-table-column-content {
+    padding-top: 10px;
+}
+
+.showcase-content-searchresult-form {
+    width: 100%;
+}
+
+#showcase-content-searchresult-form-text {
+    resize: none;
+}

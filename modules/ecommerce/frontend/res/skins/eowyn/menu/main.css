@@ -1,0 +1,30 @@
+
+#menu-main {
+    background: black;
+}
+
+#menu-main-center a {
+    color: white;
+    text-decoration: none;
+}
+
+/**********************************************
+ * FIRST LEVEL
+ **********************************************/
+
+.menu-main-firstlevel:hover {
+    /*color: darkgrey;*/
+    color: black !important;
+    background-color: white;
+    /*font-weight: bold;*/
+}
+.menu-main-firstlevel-hover {
+    /*color: darkgrey;*/
+    color: black !important;
+    background-color: white;
+    /*font-weight: bold;*/
+}
+
+.menu-main-firstlevel-special {
+    background-color: #c0a00a;
+}

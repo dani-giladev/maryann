@@ -1,0 +1,23 @@
+
+#bond-wrapper {
+    background: white;
+    border-bottom: 4px solid black;
+}
+
+#bond-content {
+    padding: 25px 5px;
+    font-size: 14px;
+    text-align: justify;    
+}
+
+#bond-success-text {
+    font-size: 18px;
+}
+
+.bond-title {
+    width: 100%;
+}
+
+.bond-field-wrapper {
+    padding-bottom: 8px;
+}

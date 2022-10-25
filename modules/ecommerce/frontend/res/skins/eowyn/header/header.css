@@ -1,0 +1,42 @@
+
+header {
+    background: black;
+}
+
+#header-center {
+    border-bottom: 1px solid white;
+}
+
+#header-logo-title {
+    top: 0px; 
+    /*color: white;*/
+    /*Green*/
+    color: #dfbd1e;
+    /*Apivita*/
+    /*color: #e3dfd6;*/
+}
+
+#header-logo-baseline {
+    color: white;
+    /*Tete*/
+    /*color: #e7e7bd;*/
+    /*Apivita*/
+    /*color: #e3dfd6;*/
+}
+
+/**********************************************
+ * Special menu
+ **********************************************/
+
+#header-specialmenu-wrapper {
+    color: white;
+}
+
+.header-specialmenu {
+    color: white;
+}
+.header-specialmenu:hover {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}

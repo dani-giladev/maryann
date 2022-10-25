@@ -1,0 +1,40 @@
+
+/*Overwritten*/
+.fancybox-skin {
+    background: #FFFFFF;
+}
+
+#thanks-for-signin {
+    position: relative; 
+    width: 400px;  
+    padding: 10px;
+    font-weight: normal;
+    /*border:  #0000CC solid thin;*/ 
+}
+
+#thanks-for-signin-title {
+    position: relative; 
+    width: 100%;    
+    font-size: 20px; 
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#thanks-for-signin-description {
+    position: relative; 
+    width: 100%;    
+    font-size: 14px;
+    font-weight: bold;
+    color: #4b515f;
+    margin-bottom: 3px;
+}
+
+#thanks-for-signin-options {
+    list-style-type: disc;
+    font-size: 14px;
+    color: green;
+    /*font-weight: bold;*/
+    font-style: italic;    
+    margin-bottom: 10px;
+}

@@ -1,0 +1,43 @@
+ 
+#medicines-info {
+    clear: both;
+    background: white;
+    border-top: 1px solid black;
+}
+
+#medicines-info-center {
+    position: relative; 
+    width: 960px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+}
+
+.medicines-info-center-border-top {
+    border-top: #000000 dotted thin;
+}
+
+#medicines-info-table {
+    width: 100%;
+    text-align: justify;
+    font-size: 12px;
+    padding: 20px 0px;
+}
+
+#medicines-info-column-text {
+    padding-left: 30px;
+}
+
+#medicines-info-logo {
+    width: 150px; 
+    height: 120px;
+}
+
+.medicines-info-link {
+    color: #4b515f;
+    text-decoration: underline !important;
+}
+
+.medicines-info-link2 {
+    color: #4b515f;
+}

@@ -1,0 +1,167 @@
+
+body {
+    color: #4b515f;
+    background: white;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+} 
+
+.button {
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;        
+    -o-border-radius: 2em;
+    -khtml-border-radius:  2em;  
+    
+/*    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);   */
+}
+
+.button-ordering {
+    /*Green*/
+/*    background:                         #17cd64;
+    background:        -webkit-gradient(#17cd64, #10913e);
+    background: -webkit-linear-gradient(#17cd64, #10913e);
+    background:    -moz-linear-gradient(#17cd64, #10913e);
+    background:      -o-linear-gradient(#17cd64, #10913e);
+    background:     -ms-linear-gradient(#17cd64, #10913e);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17cd64', endColorstr='#10913e', GradientType=0 );
+    background:         linear-gradient(#17cd64, #10913e);*/
+    
+    /*Dark green deemm*/
+    background:                         #c0a00a;
+    background:        -webkit-gradient(#c0a00a, #6d5a00);
+    background: -webkit-linear-gradient(#c0a00a, #6d5a00);
+    background:    -moz-linear-gradient(#c0a00a, #6d5a00);
+    background:      -o-linear-gradient(#c0a00a, #6d5a00);
+    background:     -ms-linear-gradient(#c0a00a, #6d5a00);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0a00a', endColorstr='#6d5a00', GradientType=0 );
+    background:         linear-gradient(#c0a00a, #6d5a00);
+    
+    color: white;
+}
+
+.button-ordering:hover {
+    /*Green*/
+    /*background: darkgreen;*/
+    /*Dark green deemm*/
+    background: #6d5a00;
+}
+
+.button-addtocart, .button-continueshopping {
+    /*Black*/
+    background:                         #444;
+    background:        -webkit-gradient(#444, #111);
+    background: -webkit-linear-gradient(#444, #111);
+    background:    -moz-linear-gradient(#444, #111);
+    background:      -o-linear-gradient(#444, #111);
+    background:     -ms-linear-gradient(#444, #111);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444', endColorstr='#111', GradientType=0 );
+    background:         linear-gradient(#444, #111);      
+    
+    color: white;
+}
+
+.button-addtocart:hover, .button-continueshopping:hover {
+    /*Black*/
+    background: black;    
+}
+
+.button-view-shoppingcart {
+    /*Orange*/
+    background:                         #fd6b1b;
+    background:        -webkit-gradient(#fd6b1b, #b33700);
+    background: -webkit-linear-gradient(#fd6b1b, #b33700);
+    background:    -moz-linear-gradient(#fd6b1b, #b33700);
+    background:      -o-linear-gradient(#fd6b1b, #b33700);
+    background:     -ms-linear-gradient(#fd6b1b, #b33700);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd6b1b', endColorstr='#b33700', GradientType=0 );
+    background:         linear-gradient(#fd6b1b, #b33700);      
+    
+    color: white;
+}
+
+.button-view-shoppingcart:hover {
+    /*Orange*/
+    background: #b33700; 
+}
+
+.title {
+/*    background: black;
+    color: white;    */
+    /*color: gray;*/
+    
+/*    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;        
+    -o-border-radius: 0.2em;
+    -khtml-border-radius:  0.2em;*/
+    
+    border-bottom: #000000 dotted thin;
+    letter-spacing: 5px;
+}
+
+.label {
+    color: #4b515f;
+    /*text-shadow: 1px 1px 1px #666;*/
+}
+
+.label-info {
+    color: #6d5a00;
+}
+
+.label-ref {
+    color: #c0c0c0;
+}
+
+.field {    
+    /*border-color: #4b515f;*/
+    border-color: #c0a00a;
+}
+
+.field:focus {
+    border-color: #6d5a00;
+    
+/*    -moz-box-shadow: 0 0 1px 1px #6d5a00;
+    -webkit-box-shadow: 0 0 1px 1px #6d5a00;
+    box-shadow: 0 0 1px 1px #6d5a00;  */
+}
+
+.price {
+    color: orangered;
+}
+
+.strikethrough-price {
+    color: grey;
+}
+
+.article-title {
+    color: black;
+}
+
+.article-display {
+    color: #4b515f;
+    font-style: italic;  
+}
+
+.brand {
+    /*Gray*/
+    /*color: #4b515f;*/
+    /*Dark green deemm*/
+    color: #6d5a00;    
+    /*color: #c0a00a;*/
+    /*font-family: "Arial Black", Verdana;*/
+    font-weight: bold;        
+}
+
+.gamma {
+    color: #c0a00a;
+    letter-spacing: 5px;    
+}

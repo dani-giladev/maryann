@@ -1,0 +1,94 @@
+
+/*Overwritten*/
+.fancybox-skin {
+    background: #FFFFFF;
+}
+
+#user-parent {
+    background: transparent;
+}
+
+#user-parent-center {
+    position: relative; 
+    width: 960px;
+    height: auto;
+    margin: 0px auto 40px auto;
+    overflow: hidden;
+}
+
+#user {
+    position: relative; 
+    width: 650px;
+    height: auto;
+    margin: 20px auto 0px auto;
+    padding: 0px;
+    /*border: silver solid thin;*/
+}
+
+.user-title {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.user-fields-wrapper {
+    position: relative; 
+    width: 600px;
+    margin: 20px;
+    /*border: red dotted thin;*/
+}
+
+#user-field-phone {
+    width: 200px;
+}
+
+#user-field-postalcode {
+    width: 200px;
+}
+
+#user-field-country {
+    width: 100px;
+}
+
+#user-field-newsletters {
+    margin-top: 30px;
+}
+
+#user-action-button-wapper {
+    position: relative; 
+    margin: 10px 0px 0px 20px;
+}
+
+.user-action-button {
+    position: relative; 
+    width: 200px; 
+    height: 32px;
+}
+
+/**********************************************
+ * MESSAGE AFTER SUBMIT
+ **********************************************/
+
+#user-message-after-submit {
+    position: relative; 
+    width: 400px;  
+    padding: 10px;
+    font-weight: normal;
+    /*border:  #0000CC solid thin;*/ 
+}
+
+#user-message-after-submit-success {
+    position: relative; 
+    width: 100%;    
+    font-size: 20px; 
+    font-weight: bold;
+    text-align: center;
+}
+
+#user-message-after-submit-unsuccess {
+    position: relative; 
+    width: 100%;    
+    font-size: 20px; 
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}

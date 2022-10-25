@@ -1,0 +1,246 @@
+
+#shoppingcart-menu-option {
+    position: relative;  
+    width: auto;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 38px;
+    float: right; 
+    cursor: pointer;    
+    /*border: violet solid thin;*/
+}
+
+#shoppingcart-menu-option-image {
+    position: relative; 
+    width: 25px;
+    height: 25px;
+    margin: 3px 0px 0px 5px;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+}
+
+#shoppingcart-menu-option-amount {
+    position: relative;  
+    width: 20px; 
+    height: 20px;
+    margin: 2px 0px 0px 4px;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -khtml-border-radius: 50%;
+}
+
+#shoppingcart-menu-option-amount-text {
+    position: relative; 
+    font-size: 10px;
+    line-height: 22px;
+}
+
+#shoppingcart-menu-option-totalprice {
+    position: relative;  
+    margin: 3px 0px 0px 5px;
+    font-size: 20px;
+    font-weight: bold;
+    /*border: red solid thin;*/
+}
+
+/* Use this next selector to style things like font-size and line-height: */
+.shoppingcart-menu-option-menu-option-tp-theme
+/*.tooltipster-box*/ 
+{
+    /*border-radius: 5px;*/ 
+    border: 2px solid #c0a00a;
+    background: white;
+}
+.shoppingcart-menu-option-menu-option-tp-theme .tooltipster-content {
+    line-height: 16px;
+    padding: 10px;
+    color: black;
+}
+
+#shoppingcart-menu-option-menu-option-tp {
+    width: 408px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#shoppingcart-menu-option-menu-option-tp-reduced {
+    width: 220px;
+}
+
+#shoppingcart-menu-option-menu-option-tp-empty-text {
+    position: relative;  
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: normal; 
+    font-style: italic;
+    font-size: 14px;
+}
+
+#shoppingcart-menu-option-menu-option-tp-buttons {
+    position: relative;  
+    width: 100%; 
+    height: 32px;
+}
+
+.shoppingcart-menu-option-menu-option-tp-button-left-position {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+}
+
+.shoppingcart-menu-option-menu-option-tp-button-right-position {
+    position: absolute;
+    top: 0px;
+    left: 220px;
+}
+
+.shoppingcart-menu-option-menu-option-tp-button-center-position {
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+.shoppingcart-menu-option-menu-option-tp-button {  
+    width: 150px; 
+    height: 32px;
+    
+}
+
+/**********************************************
+ * TOOLTIP
+ **********************************************/
+
+#shoppingcart-menu-option-tooltip {
+    padding: 0px 5px 0px 5px;
+}
+
+#shoppingcart-menu-option-tooltip-table {
+    width: 100%; 
+    /*border: #000000 dashed thin;*/
+}
+
+.shoppingcart-menu-option-tooltip-table-column {
+    position: relative; 
+    border-bottom: #c0c0c0 solid thin;
+    padding: 5px;
+}
+
+/**********************************************
+ * ARTICLE COLUMN
+ **********************************************/
+
+.shoppingcart-menu-option-tooltip-table-column-article {
+    width: 70.00%; 
+}
+
+.shoppingcart-menu-option-tooltip-table-column-article-header {
+    text-align: center;
+}
+
+.shoppingcart-menu-option-tooltip-table-column-article-content {
+    height: 56px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.shoppingcart-menu-option-tooltip-table-column-article-content-img {
+    position: absolute;  
+    width: 50px; 
+    height: 50px;
+    top: 2px; 
+    left: 2px; 
+    /*border: #073a5c solid thin;*/
+}
+
+.shoppingcart-menu-option-tooltip-table-column-article-content-brand {
+    position: absolute; 
+    width: 180px; 
+    /*height: 30px;*/
+    top: 10px; 
+    left: 60px;
+    font-size: 10px;
+    font-weight: bold;
+    overflow: hidden;
+    /*border: red solid thin;*/
+}
+
+.shoppingcart-menu-option-tooltip-table-column-article-content-title {
+    position: absolute; 
+    width: 180px; 
+    height: 35px;
+    top: 28px; 
+    left: 60px;
+    font-size: 10px;
+    overflow: hidden;
+    line-height: 12px;
+    /*border: #073a5c solid thin;*/
+}
+
+/**********************************************
+ * AMOUNT COLUMN
+ **********************************************/
+
+.shoppingcart-menu-option-tooltip-table-column-amount {
+    width: 15.00%; 
+}
+
+.shoppingcart-menu-option-tooltip-table-column-amount-content {
+    text-align: center;
+}
+
+.shoppingcart-menu-option-tooltip-table-column-amount-content-div {
+    /*display: inline-block;*/
+    /*margin-top: -1px;*/
+    font-size: 12px;
+}
+
+/**********************************************
+ * PRICE COLUMN
+ **********************************************/
+
+.shoppingcart-menu-option-tooltip-table-column-price {
+    width: 15.00%;  
+}
+
+.shoppingcart-menu-option-tooltip-table-column-price-content {
+    text-align: right;
+    font-size: 16px;
+    /*font-weight: bold;*/    
+}
+
+/**********************************************
+ * TOTALS TABLE
+ **********************************************/
+
+#shoppingcart-menu-option-tooltip-totals {
+    margin-bottom: 10px;
+}
+
+.shoppingcart-menu-option-tooltip-totals-table {
+    width: 100%; 
+    padding: 10px 0px;
+}
+
+.shoppingcart-menu-option-tooltip-totals-label {
+    width: 80.00%; 
+    text-align: right;
+    color: grey;
+    font-weight: normal;
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+.shoppingcart-menu-option-tooltip-totals-value {
+    width: 20.00%;  
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold; 
+    padding: 5px 10px 0px 0px;   
+}
+
+.shoppingcart-menu-option-tooltip-totals-shippingcost {
+    font-weight: normal; 
+}

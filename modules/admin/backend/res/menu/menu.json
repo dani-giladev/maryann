@@ -1,0 +1,36 @@
+[
+    {
+        "alias": "main",
+        "icon": "x-fa fa-sun-o",
+        "children": 
+        [
+            { 
+                "alias": "userGroup",
+                "icon": "x-fa fa-group"
+            }, 
+            { 
+                "alias": "user",
+                "icon": "x-fa fa-user"
+            },    
+            { 
+                "alias": "delegation",
+                "icon": "x-fa fa-university"
+            },    
+            { 
+                "alias": "language",
+                "icon": "x-fa fa-language"
+            }
+        ] 
+    },
+    {
+        "alias": "tools",
+        "icon": "x-fa fa-wrench",
+        "children": 
+        [   
+            { 
+                "alias": "fileManager",
+                "icon": "x-fa fa-folder-open"
+            }
+        ] 
+    }   
+]

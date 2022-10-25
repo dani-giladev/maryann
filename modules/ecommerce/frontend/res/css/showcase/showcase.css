@@ -1,0 +1,11 @@
+
+#showcase {
+    background: transparent;
+}
+
+#showcase-center {
+    position: relative; 
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
